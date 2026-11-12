@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task Manager settings reference dynamic/action overrides",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "rows"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "source", "section", "kind", "provider", "defaultValue", "prerequisite", "security", "sideEffect", "reload"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^settings\\." },
+          "label": { "type": "string", "minLength": 1 },
+          "source": { "type": "string", "pattern": "^src/settings(?:/|\\.ts)" },
+          "section": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["action", "dynamic"] },
+          "provider": { "enum": ["Core/local", "Todoist", "Google Tasks", "Google Calendar", "Microsoft To Do", "CalDAV", "Apple Reminders"] },
+          "defaultValue": { "type": "string", "minLength": 1 },
+          "prerequisite": { "type": "string", "minLength": 1 },
+          "security": { "type": "string", "minLength": 1 },
+          "sideEffect": { "type": "string", "minLength": 1 },
+          "reload": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

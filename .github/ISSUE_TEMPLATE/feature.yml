@@ -1,0 +1,26 @@
+name: Feature request
+description: Propose a focused, privacy-aware improvement
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user problem cannot be solved safely with current behavior?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and alternatives
+    validations:
+      required: true
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Impact checklist
+      options:
+        - label: I described mobile/desktop implications.
+        - label: I described privacy/network/data-loss implications.
+        - label: I considered a Markdown-compatible fallback.

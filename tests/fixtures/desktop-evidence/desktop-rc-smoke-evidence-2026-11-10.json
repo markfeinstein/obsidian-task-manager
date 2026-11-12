@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "observedBy": "Pi-assisted final release-candidate desktop reruns",
+  "independentAcceptance": false,
+  "gaAccepted": false,
+  "environment": {
+    "platform": "darwin",
+    "macOS": "27.2",
+    "architecture": "arm64",
+    "fixtureLocalDate": "2026-11-09"
+  },
+  "evidenceScope": {
+    "macOS": true,
+    "minimumAndCurrentInstallers": true,
+    "realMobileDevice": false,
+    "liveProviderAccounts": false,
+    "paidAI": false,
+    "osReminderDelivery": false,
+    "independentAccessibilityReview": false
+  },
+  "sourceContentIdentity": "f7eb2c16432e5e3105c4d44932a3a080ae4a3f247d020393c13de4f945092219",
+  "pluginHashes": {
+    "main.js": "7185eadb9fa6d7c59ee9b7bcda02475e817f4905761105eb397eb4767819c11b",
+    "manifest.json": "0ab4ebccdaf1e9b67dcd42e9ae1c97c1cf8b2a9db229cc9a4e12b2b27ed96674",
+    "styles.css": "0512fab4cfc7081b6bbb443cd088d0cc50b6b7a8a05f7af64336770535c70b6c",
+    "versions.json": "6d875f8e94f90afa02fc3a97dc9253930bd656c684bd999e64ce0817a196ef57"
+  },
+  "controllerHashes": {
+    "obsidian-desktop-smoke.mjs": "db2f0b5ce48e74f9141f0deb9113073ee21a9f8c54f51791b7132850bf77c580",
+    "obsidian-cdp.mjs": "12548412aa3c72762e57f1bc909df1ac8646d272b6ecd24b6458d41795d62315"
+  },
+  "minimumInstaller": {
+    "version": "1.11.4",
+    "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.4/Obsidian-1.11.4.dmg",
+    "sha256": "d025d210a3251b5655826d62bee276cb3870f940908a4cb0f36a346c94d62a30",
+    "vendorDigestSource": "https://api.github.com/repos/obsidianmd/obsidian-releases/releases/assets/339504888",
+    "vendorDigestMatches": true,
+    "readOnlyImageVerification": true,
+    "codeSignAndNotarizationAccepted": true
+  },
+  "currentPublicRelease": {
+    "version": "1.15.0",
+    "verifiedAt": "2026-11-10",
+    "source": "https://api.github.com/repos/obsidianmd/obsidian-releases/releases/latest",
+    "publishedAt": "2026-11-02T15:39:05Z",
+    "prerelease": false,
+    "codeSignAndNotarizationAccepted": true
+  },
+  "previousEvidence": "desktop-smoke-final-evidence-2026-11-10.json",
+  "cases": [
+    {
+      "folder": "task-manager-smoke-1.11.4-8reVfI",
+      "reportSha256": "48119c905f3c693d76e4f98da274ecfb178c3bcb6a42b81b0016f73fb9ec0e60",
+      "schemaVersion": 1,
+      "status": "passed",
+      "version": "1.11.4",
+      "sourceContentIdentity": "f7eb2c16432e5e3105c4d44932a3a080ae4a3f247d020393c13de4f945092219",
+      "pluginHashes": {
+        "main.js": "7185eadb9fa6d7c59ee9b7bcda02475e817f4905761105eb397eb4767819c11b",
+        "manifest.json": "0ab4ebccdaf1e9b67dcd42e9ae1c97c1cf8b2a9db229cc9a4e12b2b27ed96674",
+        "styles.css": "0512fab4cfc7081b6bbb443cd088d0cc50b6b7a8a05f7af64336770535c70b6c",
+        "versions.json": "6d875f8e94f90afa02fc3a97dc9253930bd656c684bd999e64ce0817a196ef57"
+      },
+      "startedAt": "2026-11-10T05:29:11.215Z",
+      "syntheticOnly": true,
+      "independentReview": false,
+      "realMobileDevice": false,
+      "liveProviders": false,
+      "osReminderDelivery": false,
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "focusEmulation": true,
+      "stages": [
+        {
+          "name": "guarded debugger connection",
+          "status": "passed",
+          "durationMs": 2752,
+          "result": {
+            "targetId": "4B69F442CD7DB10C31D72F34D1DC93D6"
+          }
+        },
+        {
+          "name": "signed installer and exact isolated identity",
+          "status": "passed",
+          "durationMs": 9,
+          "result": {
+            "installer": "1.11.4",
+            "electron": "39.2.7",
+            "chrome": "142.0.7444.235",
+            "pid": 82071,
+            "freshProfile": true,
+            "automaticUpdatesDisabled": true
+          }
+        },
+        {
+          "name": "trust only generated Task Manager plugin",
+          "status": "passed",
+          "durationMs": 275,
+          "result": {
+            "enabled": [
+              "task-manager"
+            ]
+          }
+        },
+        {
+          "name": "exact host file and metadata-cache readiness",
+          "status": "passed",
+          "durationMs": 1,
+          "result": {
+            "markdownFiles": 7,
+            "allFileCachesReady": true,
+            "frontmatterReady": true,
+            "destinationLinkReady": true
+          }
+        },
+        {
+          "name": "provider AI and notification safety",
+          "status": "passed",
+          "durationMs": 1,
+          "result": {
+            "enableReminderNotifications": false,
+            "todoistSyncEnabled": false,
+            "caldavSyncEnabled": false,
+            "googleTasksEnabled": false,
+            "googleCalendarEnabled": false,
+            "msToDoEnabled": false,
+            "appleRemindersEnabled": false,
+            "appleRemindersWebhookEnabled": false,
+            "aiQueryEnabled": false
+          }
+        },
+        {
+          "name": "real plain-query footer",
+          "status": "passed",
+          "durationMs": 247,
+          "result": {
+            "rows": 4,
+            "errors": 0
+          }
+        },
+        {
+          "name": "quick-capture UI persists and indexes once",
+          "status": "passed",
+          "durationMs": 130,
+          "result": {
+            "persistedOnce": true
+          }
+        },
+        {
+          "name": "task-edit UI persists description",
+          "status": "passed",
+          "durationMs": 878,
+          "result": {
+            "persistedAndIndexed": true
+          }
+        },
+        {
+          "name": "query completion persists done state",
+          "status": "passed",
+          "durationMs": 1293,
+          "result": {
+            "persistedDone": true
+          }
+        },
+        {
+          "name": "recurrence completion advances active occurrence",
+          "status": "passed",
+          "durationMs": 1299,
+          "result": [
+            {
+              "status": "todo",
+              "due": "2026-11-10"
+            },
+            {
+              "status": "done",
+              "due": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "name": "reminder index normalizes time without OS delivery",
+          "status": "passed",
+          "durationMs": 2,
+          "result": {
+            "fireTime": "2026-11-09 09:00",
+            "deliveryEnabled": false
+          }
+        },
+        {
+          "name": "journaled move preserves task block once",
+          "status": "passed",
+          "durationMs": 362,
+          "result": {
+            "preservedDetails": true,
+            "duplicateCount": 0
+          }
+        },
+        {
+          "name": "plugin unload cleans owners and reloads durable state",
+          "status": "passed",
+          "durationMs": 63,
+          "result": {
+            "removed": true,
+            "inactive": true,
+            "remindersDisposed": true,
+            "networkAborted": true,
+            "scanAborted": true,
+            "commandsRemoved": true
+          }
+        },
+        {
+          "name": "fault-injected move retains recoverable journal",
+          "status": "passed",
+          "durationMs": 350,
+          "result": {
+            "faultInjected": true,
+            "sourceRetained": true,
+            "targetMarked": true
+          }
+        },
+        {
+          "name": "owned application restart reconciles pending move",
+          "status": "passed",
+          "durationMs": 1363,
+          "result": {
+            "journals": 0,
+            "sourcePreservedOnce": true,
+            "targetRollback": true,
+            "restartedPid": 82114
+          }
+        },
+        {
+          "name": "generated Bases renders in the actual core view",
+          "status": "passed",
+          "durationMs": 284,
+          "result": {
+            "path": "Task Manager Bases/Upcoming.base",
+            "type": "bases",
+            "views": 4
+          }
+        },
+        {
+          "name": "actual plugin Settings in inline or native document",
+          "status": "passed",
+          "durationMs": 334,
+          "result": {
+            "title": "Upcoming - Task Manager Smoke - Obsidian v1.11.4",
+            "rows": 35,
+            "namedControls": 42
+          }
+        },
+        {
+          "name": "final safety and no unexpected runtime exception",
+          "status": "passed",
+          "durationMs": 1,
+          "result": {
+            "safetyPreserved": true,
+            "runtimeExceptions": 0
+          }
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "bases-rendered.png",
+          "sha256": "80bc6ee831fdc1d99bd25aadba632a283479d6fcd901b3482920a2bfed64c760",
+          "bytes": 45992,
+          "width": 1280,
+          "height": 900
+        }
+      ],
+      "runtimeDiagnostics": [],
+      "activeStage": "final safety and no unexpected runtime exception",
+      "completedAt": "2026-11-10T05:29:21.190Z",
+      "ownedProcesses": [
+        {
+          "pid": 82071,
+          "stopped": true
+        },
+        {
+          "pid": 82114,
+          "stopped": true
+        }
+      ]
+    },
+    {
+      "folder": "task-manager-smoke-1.15.0-K3YYE3",
+      "reportSha256": "566e96ae5bab243e5abb411af9fd59116436257206fb4697afd324172e0b87df",
+      "schemaVersion": 1,
+      "status": "passed",
+      "version": "1.15.0",
+      "sourceContentIdentity": "f7eb2c16432e5e3105c4d44932a3a080ae4a3f247d020393c13de4f945092219",
+      "pluginHashes": {
+        "main.js": "7185eadb9fa6d7c59ee9b7bcda02475e817f4905761105eb397eb4767819c11b",
+        "manifest.json": "0ab4ebccdaf1e9b67dcd42e9ae1c97c1cf8b2a9db229cc9a4e12b2b27ed96674",
+        "styles.css": "0512fab4cfc7081b6bbb443cd088d0cc50b6b7a8a05f7af64336770535c70b6c",
+        "versions.json": "6d875f8e94f90afa02fc3a97dc9253930bd656c684bd999e64ce0817a196ef57"
+      },
+      "startedAt": "2026-11-10T05:29:22.362Z",
+      "syntheticOnly": true,
+      "independentReview": false,
+      "realMobileDevice": false,
+      "liveProviders": false,
+      "osReminderDelivery": false,
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "focusEmulation": true,
+      "stages": [
+        {
+          "name": "guarded debugger connection",
+          "status": "passed",
+          "durationMs": 453,
+          "result": {
+            "targetId": "72E351BB90AFAF5C97B047CE2ABFBE5A"
+          }
+        },
+        {
+          "name": "signed installer and exact isolated identity",
+          "status": "passed",
+          "durationMs": 3,
+          "result": {
+            "installer": "1.15.0",
+            "electron": "43.8.4",
+            "chrome": "150.0.7871.250",
+            "pid": 82151,
+            "freshProfile": true,
+            "automaticUpdatesDisabled": true
+          }
+        },
+        {
+          "name": "trust only generated Task Manager plugin",
+          "status": "passed",
+          "durationMs": 283,
+          "result": {
+            "enabled": [
+              "task-manager"
+            ]
+          }
+        },
+        {
+          "name": "exact host file and metadata-cache readiness",
+          "status": "passed",
+          "durationMs": 1,
+          "result": {
+            "markdownFiles": 7,
+            "allFileCachesReady": true,
+            "frontmatterReady": true,
+            "destinationLinkReady": true
+          }
+        },
+        {
+          "name": "provider AI and notification safety",
+          "status": "passed",
+          "durationMs": 1,
+          "result": {
+            "enableReminderNotifications": false,
+            "todoistSyncEnabled": false,
+            "caldavSyncEnabled": false,
+            "googleTasksEnabled": false,
+            "googleCalendarEnabled": false,
+            "msToDoEnabled": false,
+            "appleRemindersEnabled": false,
+            "appleRemindersWebhookEnabled": false,
+            "aiQueryEnabled": false
+          }
+        },
+        {
+          "name": "real plain-query footer",
+          "status": "passed",
+          "durationMs": 245,
+          "result": {
+            "rows": 4,
+            "errors": 0
+          }
+        },
+        {
+          "name": "quick-capture UI persists and indexes once",
+          "status": "passed",
+          "durationMs": 127,
+          "result": {
+            "persistedOnce": true
+          }
+        },
+        {
+          "name": "task-edit UI persists description",
+          "status": "passed",
+          "durationMs": 881,
+          "result": {
+            "persistedAndIndexed": true
+          }
+        },
+        {
+          "name": "query completion persists done state",
+          "status": "passed",
+          "durationMs": 1273,
+          "result": {
+            "persistedDone": true
+          }
+        },
+        {
+          "name": "recurrence completion advances active occurrence",
+          "status": "passed",
+          "durationMs": 1303,
+          "result": [
+            {
+              "status": "todo",
+              "due": "2026-11-10"
+            },
+            {
+              "status": "done",
+              "due": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "name": "reminder index normalizes time without OS delivery",
+          "status": "passed",
+          "durationMs": 1,
+          "result": {
+            "fireTime": "2026-11-09 09:00",
+            "deliveryEnabled": false
+          }
+        },
+        {
+          "name": "journaled move preserves task block once",
+          "status": "passed",
+          "durationMs": 362,
+          "result": {
+            "preservedDetails": true,
+            "duplicateCount": 0
+          }
+        },
+        {
+          "name": "plugin unload cleans owners and reloads durable state",
+          "status": "passed",
+          "durationMs": 58,
+          "result": {
+            "removed": true,
+            "inactive": true,
+            "remindersDisposed": true,
+            "networkAborted": true,
+            "scanAborted": true,
+            "commandsRemoved": true
+          }
+        },
+        {
+          "name": "fault-injected move retains recoverable journal",
+          "status": "passed",
+          "durationMs": 340,
+          "result": {
+            "faultInjected": true,
+            "sourceRetained": true,
+            "targetMarked": true
+          }
+        },
+        {
+          "name": "owned application restart reconciles pending move",
+          "status": "passed",
+          "durationMs": 1918,
+          "result": {
+            "journals": 0,
+            "sourcePreservedOnce": true,
+            "targetRollback": true,
+            "restartedPid": 82201
+          }
+        },
+        {
+          "name": "generated Bases renders in the actual core view",
+          "status": "passed",
+          "durationMs": 256,
+          "result": {
+            "path": "Task Manager Bases/Upcoming.base",
+            "type": "bases",
+            "views": 4
+          }
+        },
+        {
+          "name": "actual plugin Settings in inline or native document",
+          "status": "passed",
+          "durationMs": 519,
+          "result": {
+            "title": "Settings - Task Manager Smoke - Obsidian 1.15.0",
+            "rows": 35,
+            "namedControls": 44
+          }
+        },
+        {
+          "name": "final safety and no unexpected runtime exception",
+          "status": "passed",
+          "durationMs": 1,
+          "result": {
+            "safetyPreserved": true,
+            "runtimeExceptions": 0
+          }
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "bases-rendered.png",
+          "sha256": "21e16d9f647c3eb7654741b2a37934601d91de8608dcdc94481e9740ca16918c",
+          "bytes": 47035,
+          "width": 1280,
+          "height": 900
+        }
+      ],
+      "runtimeDiagnostics": [],
+      "activeStage": "final safety and no unexpected runtime exception",
+      "completedAt": "2026-11-10T05:29:30.759Z",
+      "ownedProcesses": [
+        {
+          "pid": 82151,
+          "stopped": true
+        },
+        {
+          "pid": 82201,
+          "stopped": true
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    "Fresh synthetic vault/profile pairs with only Task Manager enabled.",
+    "Controlled vault.process fault injection is recovery evidence, not a spontaneous crash.",
+    "No live providers, AI, OS delivery, real devices or independent accessibility/owner acceptance.",
+    "Earlier reports remain bound to their original source, not relabeled."
+  ]
+}

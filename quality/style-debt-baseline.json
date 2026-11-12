@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "importantTotal": 43,
+  "inlineStaticTotal": 135,
+  "importantBySelector": {
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) :focus-visible": 2,
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]), :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) *": 3,
+    ".task-date-picker-cal-day": 1,
+    ".task-date-picker-cal-day:hover": 1,
+    ".task-date-picker-cal-day.is-selected, .task-date-picker-cal-day.is-selected:hover": 1,
+    ".task-date-picker-cal-day.is-today": 1,
+    ".task-manager-cal-future": 1,
+    ".task-manager-calendar-dragging": 1,
+    ".task-manager-calendar-drop-target": 1,
+    ".task-manager-calendar-grid-week": 1,
+    ".task-manager-kanban-column-dragover": 1,
+    ".task-manager-kanban-header": 1,
+    ".task-manager-panel-due.is-overdue": 1,
+    ".task-manager-query-checklist .task-manager-checklist-item": 2,
+    ".task-manager-query-checklist .task-manager-checklist-list": 2,
+    ".task-manager-query-checklist .task-manager-query-marker": 2,
+    ".tm-daily-todo-check::before, .tm-daily-todo-check::after": 1,
+    ".tm-dash-card.is-collapsed": 1,
+    ".tm-dash-daily-todos-host-wrap .edit-block-button, .tm-dash-daily-todos-host-wrap .markdown-embed-link, .markdown-source-view.mod-cm6 .cm-preview-code-block:has(.tm-dash-daily-todos-host) .edit-block-button": 1,
+    ".tm-dash-daily-todos-host-wrap, .markdown-source-view.mod-cm6 .cm-preview-code-block:has(.tm-dash-daily-todos-host), .markdown-source-view.mod-cm6 .cm-embed-block:has(.tm-dash-daily-todos-host), .markdown-rendered pre:has(.tm-dash-daily-todos-host)": 5,
+    ".tm-dash-daily-todos-host, .markdown-rendered .tm-dash-daily-todos-host, .markdown-source-view.mod-cm6 .tm-dash-daily-todos-host": 3,
+    ".tm-dash-grid.is-stacked > .tm-dash-card": 3,
+    ".tm-dash.tm-dash-daily-todos-embed, .tm-dash.tm-dash-daily-todos-embed .tm-dash-embedded-grid": 2,
+    ".tm-dash.tm-dash-widget-embed:not(.tm-dash-theme-minimal) .tm-dash-card.tm-dash-card--daily-todos, .tm-dash.tm-dash-widget-embed .tm-dash-card.tm-dash-card--daily-todos": 2,
+    "body.task-manager-kanban-drag-active .task-line-toolbar": 2
+  },
+  "inlineByFile": {
+    "src/calendar-renderer.ts": {
+      "style.position": 1
+    },
+    "src/cross-view-drag.ts": {
+      "style.background": 1,
+      "style.border": 1,
+      "style.borderRadius": 1,
+      "style.boxShadow": 1,
+      "style.left": 1,
+      "style.maxWidth": 1,
+      "style.overflow": 1,
+      "style.padding": 1,
+      "style.pointerEvents": 1,
+      "style.position": 1,
+      "style.textOverflow": 1,
+      "style.top": 1,
+      "style.whiteSpace": 1,
+      "style.zIndex": 1
+    },
+    "src/dashboard.ts": {
+      "style.display": 1,
+      "style.flex": 1,
+      "style.gridColumn": 1,
+      "style.gridRow": 1,
+      "style.height": 1,
+      "style.margin": 1,
+      "style.minHeight": 2,
+      "style.pointerEvents": 1,
+      "style.position": 1,
+      "style.transform": 3,
+      "style.transition": 4,
+      "style.width": 1,
+      "style.zIndex": 1
+    },
+    "src/eisenhower-renderer.ts": {
+      "style.cursor": 1
+    },
+    "src/gantt-renderer.ts": {
+      "style.alignItems": 1,
+      "style.cursor": 4,
+      "style.display": 1,
+      "style.flexShrink": 2,
+      "style.height": 2,
+      "style.overflow": 1,
+      "style.pointerEvents": 1,
+      "style.position": 7,
+      "style.right": 1,
+      "style.top": 3,
+      "style.transform": 1,
+      "style.width": 1
+    },
+    "src/kanban-renderer.ts": {
+      "style.display": 2,
+      "style.touchAction": 2
+    },
+    "src/keyboard-nav.ts": {
+      "style.height": 1,
+      "style.left": 1,
+      "style.overflow": 1,
+      "style.position": 1,
+      "style.width": 1
+    },
+    "src/main.ts": {
+      "style.cursor": 1,
+      "style.display": 2,
+      "style.gap": 2,
+      "style.marginTop": 2
+    },
+    "src/modals/autosuggest.ts": {
+      "style.cssText": 3
+    },
+    "src/modals/quick-capture-modal.ts": {
+      "style.display": 1,
+      "style.fontFamily": 1,
+      "style.fontSize": 2,
+      "style.gap": 1,
+      "style.justifyContent": 1,
+      "style.marginBottom": 2,
+      "style.marginTop": 1,
+      "style.opacity": 2,
+      "style.width": 4
+    },
+    "src/progress-bar-decorator.ts": {
+      "style.color": 1,
+      "style.fontFamily": 2,
+      "style.fontFeatureSettings": 2,
+      "style.fontSize": 2,
+      "style.marginLeft": 2,
+      "style.opacity": 2
+    },
+    "src/query-renderer.ts": {
+      "style.cssText": 1,
+      "style.display": 1,
+      "style.transform": 2,
+      "style.transition": 2
+    },
+    "src/settings.ts": {
+      "style.cssText": 6,
+      "style.fontFamily": 1,
+      "style.minHeight": 1,
+      "style.width": 1
+    },
+    "src/settings/workflow-section.ts": {
+      "style.cssText": 3,
+      "style.marginTop": 1
+    },
+    "src/sidebar-view.ts": {
+      "style.display": 1
+    },
+    "src/table-renderer.ts": {
+      "style.display": 3
+    },
+    "src/task-line-toolbar.ts": {
+      "style.height": 1,
+      "style.left": 1,
+      "style.overflowY": 1,
+      "style.pointerEvents": 1,
+      "style.position": 1,
+      "style.top": 1,
+      "style.visibility": 1
+    }
+  },
+  "policy": "Static component presentation belongs in ordered styles/*.css source partials compiled to the one shipped styles.css; new inline-static path/property debt or new/increased !important selector debt fails. Dynamic measured geometry is excluded."
+}

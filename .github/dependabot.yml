@@ -1,0 +1,60 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "07:15"
+      timezone: UTC
+    open-pull-requests-limit: 5
+    versioning-strategy: increase
+    groups:
+      codemirror:
+        patterns:
+          - "@codemirror/*"
+        update-types:
+          - minor
+          - patch
+      test-tooling:
+        patterns:
+          - "axe-core"
+          - "jsdom"
+          - "@types/jsdom"
+        update-types:
+          - minor
+          - patch
+      build-and-types:
+        patterns:
+          - "esbuild"
+          - "typescript"
+          - "typescript-eslint"
+          - "@types/node"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
+    labels:
+      - dependencies
+    commit-message:
+      prefix: deps
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
+    labels:
+      - dependencies
+    commit-message:
+      prefix: ci

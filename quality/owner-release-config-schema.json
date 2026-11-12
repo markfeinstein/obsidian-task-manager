@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "description": "Owner-controlled release endpoint and Community Plugins configuration. Values are supplied through ignored release-evidence or CI secrets and are never generated.",
+  "required": [
+    "schemaVersion",
+    "repositoryUrl",
+    "homepageUrl",
+    "releaseBaseUrl",
+    "supportUrl",
+    "communityPlugins"
+  ],
+  "communityPlugins": {
+    "required": ["status", "pluginId"],
+    "allowedStatus": ["unlisted", "submitted", "listed"],
+    "stageRules": {
+      "initial-submission": {
+        "allowedStatus": ["unlisted", "submitted"],
+        "submittedRequires": ["submissionUrl"]
+      },
+      "ga": {
+        "allowedStatus": ["listed"],
+        "required": ["upstreamCommitUrl"]
+      }
+    }
+  }
+}

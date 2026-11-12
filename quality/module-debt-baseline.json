@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "hotspots": {
+    "src/main.ts": { "maxLines": 6578, "maxImports": 85 },
+    "src/dashboard.ts": { "maxLines": 8930, "maxImports": 28 },
+    "src/query-renderer.ts": { "maxLines": 4626, "maxImports": 35 },
+    "src/task-query.ts": { "maxLines": 3243, "maxImports": 9 },
+    "src/settings.ts": { "maxLines": 2759, "maxImports": 9 }
+  },
+  "extractedModules": {
+    "src/dashboard-aggregates.ts": { "maxLines": 75, "maxImports": 1 },
+    "src/query-result-paging.ts": { "maxLines": 100, "maxImports": 2 },
+    "src/dashboard-render-scheduler.ts": { "maxLines": 50, "maxImports": 0 },
+    "src/vault-event-coordinator.ts": { "maxLines": 50, "maxImports": 2 }
+  }
+}

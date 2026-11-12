@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "description": "Owner-supplied, immutable, independently reviewed evidence required before public GA. Synthetic Node/JSDOM/FakeDOM records are never accepted as host/device/provider/accessibility evidence.",
+  "maximumAgeDays": 90,
+  "requiredTopLevel": [
+    "schemaVersion",
+    "sourceRevision",
+    "sourceContentSha256",
+    "platforms",
+    "installation",
+    "accessibility",
+    "providers",
+    "visualInteraction"
+  ],
+  "requiredPlatforms": ["minimumDesktop", "currentDesktop", "minimumAndroid", "currentAndroid", "minimumIos", "currentIos"],
+  "requiredAccessibility": ["voiceOverMac", "voiceOverIos", "nvdaWindows", "talkBackAndroid"],
+  "requiredProviders": ["todoist", "googleTasks", "microsoftTodo", "caldav", "googleCalendar", "appleReminders"],
+  "requiredVisualInteraction": ["zoom400", "forcedColors", "rtl", "communityTheme", "touchLongPress", "orientation", "reducedMotion", "realDevicePerformance"],
+  "requiredInstallation": ["offlineInstall", "update", "uninstallCleanup"],
+  "recordFields": ["status", "observedAt", "artifactUrl", "artifactSha256", "tester", "reviewer", "environment", "notes"],
+  "environmentFields": ["obsidianVersion", "pluginVersion", "os", "subjectVersion"],
+  "allowedStatus": ["passed"]
+}

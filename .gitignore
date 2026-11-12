@@ -1,0 +1,16 @@
+node_modules
+.test-dist/
+.test-dist-tq/
+.test-runs/
+.test-ai/
+.pi-subagents/
+coverage/
+benchmark-results/
+release/
+# Owner-controlled GA evidence may contain private intake/contact details.
+release-evidence/ga-evidence.json
+release-evidence/owner-release-config.json
+sample-vault/.obsidian/plugins/task-manager/main.js
+main.js.map
+.pi/messenger/feed.jsonl
+.DS_Store

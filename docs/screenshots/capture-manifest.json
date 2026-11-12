@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 2,
+  "capturedBy": "Pi-assisted desktop capture with model visual inspection",
+  "seed": {
+    "source": "sample-vault",
+    "date": "2026-11-09",
+    "taskCount": 58,
+    "showcaseFiles": [
+      {
+        "path": "sample-vault/Showcase/Queries.md",
+        "sha256": "92b49fe1a84fd4581adbe9c97cf46913b3609681d1f7afee2d4f4af33fd4e27f"
+      },
+      {
+        "path": "sample-vault/Showcase/Kanban.md",
+        "sha256": "7a09368534771e7ad1619dc7e82483e73a5a24cd76fcd0066156cab53ec1b9fb"
+      },
+      {
+        "path": "sample-vault/Showcase/Calendar.md",
+        "sha256": "b02bae188e08964080962287f815daf07aa269d4f8c901bd612625d259cfe5cc"
+      },
+      {
+        "path": "sample-vault/Showcase/Table.md",
+        "sha256": "029ebae16a73b16ef42d75e0182630a6deb2793f862e1bb1a397729ba729d68e"
+      }
+    ]
+  },
+  "source": {
+    "revision": "2ea22e2775414df1dacb96cfe49ed2b866af9338",
+    "contentIdentity": "787071fef646ea5717b827f10a21acc444a23ab5f20bdbed67612f114dc7b374",
+    "pluginVersion": "0.1.0",
+    "pluginArtifactSha256": {
+      "main.js": "14ad1425a37008da910516c9a5f35f83c8e8efa779cac868c9d879bc64edb8bf",
+      "styles.css": "0512fab4cfc7081b6bbb443cd088d0cc50b6b7a8a05f7af64336770535c70b6c",
+      "manifest.json": "0ab4ebccdaf1e9b67dcd42e9ae1c97c1cf8b2a9db229cc9a4e12b2b27ed96674",
+      "versions.json": "6d875f8e94f90afa02fc3a97dc9253930bd656c684bd999e64ce0817a196ef57"
+    },
+    "pluginBytes": {
+      "js": 1647982,
+      "css": 238584
+    }
+  },
+  "historicalSources": [
+    {
+      "revision": "0dd4f59036b6de923a35006850005739e6854b73",
+      "contentIdentity": "55ee02b9726c6a09ef567d600369350d0aad6f3e8bac7cd04ad5d41a50d4e9c1",
+      "pluginVersion": "0.1.0",
+      "pluginArtifactSha256": {
+        "main.js": "dcf6af4d18ccf8e7037d899fa14f78fb157beea92e2dba669df3ba4e9cd0f61b",
+        "styles.css": "97eee473162ab5791afad4c4ef6a501ae4c1284cfe8b9887fed563376013651c",
+        "manifest.json": "0ab4ebccdaf1e9b67dcd42e9ae1c97c1cf8b2a9db229cc9a4e12b2b27ed96674",
+        "versions.json": "6d875f8e94f90afa02fc3a97dc9253930bd656c684bd999e64ce0817a196ef57"
+      },
+      "pluginBytes": {
+        "js": 1647982,
+        "css": 238690
+      }
+    }
+  ],
+  "host": {
+    "obsidianVersion": "1.15.0",
+    "obsidianVersionSource": "official CLI observed at session setup",
+    "installerVersion": "1.15.0",
+    "electron": "43.8.4",
+    "chrome": "150.0.7871.250",
+    "platform": "darwin",
+    "arch": "arm64",
+    "osVersion": "27.2"
+  },
+  "safety": {
+    "syntheticDataOnly": true,
+    "enabledCommunityPlugins": [
+      "task-manager"
+    ],
+    "settings": {
+      "enableReminderNotifications": false,
+      "todoistSyncEnabled": false,
+      "caldavSyncEnabled": false,
+      "googleTasksEnabled": false,
+      "googleCalendarEnabled": false,
+      "msToDoEnabled": false,
+      "appleRemindersEnabled": false,
+      "appleRemindersWebhookEnabled": false,
+      "aiQueryEnabled": false
+    }
+  },
+  "presentation": {
+    "obsidianTheme": "Default light/dark as recorded per image",
+    "dashboardTheme": "native",
+    "dashboardDensity": "comfortable",
+    "dashboardLayout": "Command center",
+    "readableLineLength": false,
+    "showInlineTitle": false,
+    "sidebarsCollapsed": true
+  },
+  "capture": {
+    "protocolMethod": "Page.captureScreenshot",
+    "transport": "Per-profile loopback CDP with exact vault/profile guards",
+    "deviceScaleFactor": 2,
+    "mobileEmulation": false,
+    "postProcessing": "none; widget picker clipped to its actual modal rectangle"
+  },
+  "evidenceScope": {
+    "desktopCapture": true,
+    "realMobileDevice": false,
+    "liveProviderAccounts": false,
+    "independentAccessibilityReview": false,
+    "fullVisualMatrix": false
+  },
+  "runtimeChecks": {
+    "widgetPicker": {
+      "checkedAt": "2026-11-09T23:05:46.065Z",
+      "sourceIdentity": "55ee02b9726c6a09ef567d600369350d0aad6f3e8bac7cd04ad5d41a50d4e9c1",
+      "outsideDashboard": true,
+      "tokens": {
+        "--tm-s4": "8px",
+        "--tm-s8": "16px",
+        "--tm-font-xs": "12px",
+        "--tm-preview-rail": "340px",
+        "--tm-radius-card": "12px"
+      },
+      "bodyGap": "16px",
+      "previewBasis": "340px",
+      "optionPadding": "8px 12px",
+      "inputPadding": "40px",
+      "descriptionWhiteSpace": "normal",
+      "widgetOptions": 86
+    },
+    "showcaseNotes": {
+      "visibleQueriesPerNote": 1,
+      "visibleQueryErrors": 0
+    },
+    "overdueContrast": {
+      "sourceIdentity": "787071fef646ea5717b827f10a21acc444a23ab5f20bdbed67612f114dc7b374",
+      "focusEmulation": true,
+      "checks": [
+        {
+          "checkedAt": "2026-11-10T00:32:07.270Z",
+          "file": "Showcase/Queries.md",
+          "theme": "light",
+          "text": "🔴 4 overdue",
+          "selector": ".task-manager-query-summary-chip--overdue",
+          "foreground": "rgb(34, 34, 34)",
+          "background": "color(srgb 0.958588 0.872 0.882353)",
+          "foregroundRGBA": [
+            34,
+            34,
+            34,
+            255
+          ],
+          "backgroundRGBA": [
+            244,
+            222,
+            225,
+            255
+          ],
+          "contrastRatio": 12.411589700998153,
+          "minimum": 4.5,
+          "passed": true,
+          "taskCount": 58
+        },
+        {
+          "checkedAt": "2026-11-10T00:32:08.928Z",
+          "file": "Showcase/Kanban.md",
+          "theme": "light",
+          "text": "🔴 1 overdue",
+          "selector": ".task-manager-query-summary-chip--overdue",
+          "foreground": "rgb(34, 34, 34)",
+          "background": "color(srgb 0.958588 0.872 0.882353)",
+          "foregroundRGBA": [
+            34,
+            34,
+            34,
+            255
+          ],
+          "backgroundRGBA": [
+            244,
+            222,
+            225,
+            255
+          ],
+          "contrastRatio": 12.411589700998153,
+          "minimum": 4.5,
+          "passed": true,
+          "taskCount": 58
+        },
+        {
+          "checkedAt": "2026-11-10T00:32:10.539Z",
+          "file": "Showcase/Table.md",
+          "theme": "light",
+          "text": "🔴 4 overdue",
+          "selector": ".task-manager-query-summary-chip--overdue",
+          "foreground": "rgb(34, 34, 34)",
+          "background": "color(srgb 0.958588 0.872 0.882353)",
+          "foregroundRGBA": [
+            34,
+            34,
+            34,
+            255
+          ],
+          "backgroundRGBA": [
+            244,
+            222,
+            225,
+            255
+          ],
+          "contrastRatio": 12.411589700998153,
+          "minimum": 4.5,
+          "passed": true,
+          "taskCount": 58
+        },
+        {
+          "checkedAt": "2026-11-10T00:32:12.152Z",
+          "file": "Showcase/Queries.md",
+          "theme": "dark",
+          "text": "🔴 4 overdue",
+          "selector": ".task-manager-query-summary-chip--overdue",
+          "foreground": "rgb(218, 218, 218)",
+          "background": "color(srgb 0.256157 0.17098 0.173804)",
+          "foregroundRGBA": [
+            218,
+            218,
+            218,
+            255
+          ],
+          "backgroundRGBA": [
+            65,
+            44,
+            44,
+            255
+          ],
+          "contrastRatio": 9.264821132713664,
+          "minimum": 4.5,
+          "passed": true,
+          "taskCount": 58
+        },
+        {
+          "checkedAt": "2026-11-10T00:32:13.776Z",
+          "file": "Showcase/Kanban.md",
+          "theme": "dark",
+          "text": "🔴 1 overdue",
+          "selector": ".task-manager-query-summary-chip--overdue",
+          "foreground": "rgb(218, 218, 218)",
+          "background": "color(srgb 0.256157 0.17098 0.173804)",
+          "foregroundRGBA": [
+            218,
+            218,
+            218,
+            255
+          ],
+          "backgroundRGBA": [
+            65,
+            44,
+            44,
+            255
+          ],
+          "contrastRatio": 9.264821132713664,
+          "minimum": 4.5,
+          "passed": true,
+          "taskCount": 58
+        },
+        {
+          "checkedAt": "2026-11-10T00:32:15.384Z",
+          "file": "Showcase/Table.md",
+          "theme": "dark",
+          "text": "🔴 4 overdue",
+          "selector": ".task-manager-query-summary-chip--overdue",
+          "foreground": "rgb(218, 218, 218)",
+          "background": "color(srgb 0.256157 0.17098 0.173804)",
+          "foregroundRGBA": [
+            218,
+            218,
+            218,
+            255
+          ],
+          "backgroundRGBA": [
+            65,
+            44,
+            44,
+            255
+          ],
+          "contrastRatio": 9.264821132713664,
+          "minimum": 4.5,
+          "passed": true,
+          "taskCount": 58
+        }
+      ],
+      "footerRuntime": {
+        "status": "partial",
+        "reason": "The optional show stats probe was rejected by the query frontend in this profile; footer CSS has source regression coverage only.",
+        "nextCheck": "Exercise the footer through its supported query/UI configuration."
+      }
+    }
+  },
+  "knownObservations": [
+    {
+      "id": "VIS-2",
+      "selector": ".task-manager-query-summary-chip--overdue",
+      "theme": "light",
+      "foreground": "rgb(233, 49, 71)",
+      "background": "rgb(233, 49, 71)",
+      "contrastRatio": 1,
+      "affectedFiles": [
+        "query-grouped.png",
+        "kanban.png",
+        "table.png"
+      ],
+      "disposition": "Source corrected and all three affected views recaptured without retouching. Pre-fix raw PNGs remain in commit 4174819694991257ced33de7aebefef7283c5e46.",
+      "status": "resolved",
+      "observedSourceRevision": "0dd4f59036b6de923a35006850005739e6854b73",
+      "resolvedBySourceRevision": "2ea22e2775414df1dacb96cfe49ed2b866af9338"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "dashboard.png",
+      "description": "Command center dashboard in the default light theme: Quick actions, Summary, and Agenda",
+      "capturedAt": "2026-11-09T23:11:36.866Z",
+      "bytes": 501600,
+      "width": 2560,
+      "height": 1800,
+      "sha256": "e4a226f232196fa401bef484ca07c3e00a96807acf482df775092716e7352d62",
+      "sourceRevision": "0dd4f59036b6de923a35006850005739e6854b73",
+      "sourceIdentity": "55ee02b9726c6a09ef567d600369350d0aad6f3e8bac7cd04ad5d41a50d4e9c1",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 2
+      },
+      "theme": "light",
+      "activeView": "task-manager-dashboard",
+      "taskCount": 58,
+      "cropSelector": null
+    },
+    {
+      "file": "dashboard-dark.png",
+      "description": "The same Command center dashboard in the default dark theme",
+      "capturedAt": "2026-11-09T23:11:38.509Z",
+      "bytes": 495301,
+      "width": 2560,
+      "height": 1800,
+      "sha256": "320d5830c2eaa065e73d2a10325a462c427b96c8c378a9c467b55d509afb8985",
+      "sourceRevision": "0dd4f59036b6de923a35006850005739e6854b73",
+      "sourceIdentity": "55ee02b9726c6a09ef567d600369350d0aad6f3e8bac7cd04ad5d41a50d4e9c1",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 2
+      },
+      "theme": "dark",
+      "activeView": "task-manager-dashboard",
+      "taskCount": 58,
+      "cropSelector": null
+    },
+    {
+      "file": "dashboard-narrow.png",
+      "description": "Command center at a 560px-wide desktop viewport; responsive-layout evidence, not mobile-device evidence",
+      "capturedAt": "2026-11-09T23:11:40.106Z",
+      "bytes": 258424,
+      "width": 1120,
+      "height": 2000,
+      "sha256": "4cf350e7e72e270f05347f359195235aa80c5094bcc810ea81cf1ac8b2dafc91",
+      "sourceRevision": "0dd4f59036b6de923a35006850005739e6854b73",
+      "sourceIdentity": "55ee02b9726c6a09ef567d600369350d0aad6f3e8bac7cd04ad5d41a50d4e9c1",
+      "viewport": {
+        "width": 560,
+        "height": 1000,
+        "devicePixelRatio": 2
+      },
+      "theme": "light",
+      "activeView": "task-manager-dashboard",
+      "taskCount": 58,
+      "cropSelector": null
+    },
+    {
+      "file": "query-grouped.png",
+      "description": "Open synthetic tasks grouped by priority and sorted by due date; corrected overdue summary contrast",
+      "capturedAt": "2026-11-10T00:41:41.669Z",
+      "bytes": 278823,
+      "width": 2560,
+      "height": 1800,
+      "sha256": "aa880a7141bb6555899e68a74711b4b6a7b3b7e0490351252e9f136a6832d332",
+      "sourceRevision": "2ea22e2775414df1dacb96cfe49ed2b866af9338",
+      "sourceIdentity": "787071fef646ea5717b827f10a21acc444a23ab5f20bdbed67612f114dc7b374",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 2
+      },
+      "theme": "light",
+      "activeView": "markdown",
+      "taskCount": 58,
+      "cropSelector": null,
+      "focusEmulation": true
+    },
+    {
+      "file": "kanban.png",
+      "description": "Project tasks arranged by status in a real query Kanban board; corrected overdue summary contrast",
+      "capturedAt": "2026-11-10T00:41:44.301Z",
+      "bytes": 273896,
+      "width": 2560,
+      "height": 1800,
+      "sha256": "8285a6898e51362267d486c91f89b5005eb14ee47254093d3890e0e25ea44cb5",
+      "sourceRevision": "2ea22e2775414df1dacb96cfe49ed2b866af9338",
+      "sourceIdentity": "787071fef646ea5717b827f10a21acc444a23ab5f20bdbed67612f114dc7b374",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 2
+      },
+      "theme": "light",
+      "activeView": "markdown",
+      "taskCount": 58,
+      "cropSelector": null,
+      "focusEmulation": true
+    },
+    {
+      "file": "calendar.png",
+      "description": "Dated sample tasks in the November 2026 month calendar",
+      "capturedAt": "2026-11-09T23:13:36.514Z",
+      "bytes": 274994,
+      "width": 2560,
+      "height": 1800,
+      "sha256": "a7867bd05033b4f50a951225c3e1a332b856563238e10a0da24412e39a5d94d3",
+      "sourceRevision": "0dd4f59036b6de923a35006850005739e6854b73",
+      "sourceIdentity": "55ee02b9726c6a09ef567d600369350d0aad6f3e8bac7cd04ad5d41a50d4e9c1",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 2
+      },
+      "theme": "light",
+      "activeView": "markdown",
+      "taskCount": 58,
+      "cropSelector": null
+    },
+    {
+      "file": "table.png",
+      "description": "Sortable task metadata table with synthetic tasks; corrected overdue summary contrast",
+      "capturedAt": "2026-11-10T00:41:46.938Z",
+      "bytes": 335244,
+      "width": 2560,
+      "height": 1800,
+      "sha256": "d34bdd9ae332a23428aacca5c954a39e458ee7adab3c558ee2d80c1194421587",
+      "sourceRevision": "2ea22e2775414df1dacb96cfe49ed2b866af9338",
+      "sourceIdentity": "787071fef646ea5717b827f10a21acc444a23ab5f20bdbed67612f114dc7b374",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 2
+      },
+      "theme": "light",
+      "activeView": "markdown",
+      "taskCount": 58,
+      "cropSelector": null,
+      "focusEmulation": true
+    },
+    {
+      "file": "dashboard-widgets.png",
+      "description": "Dashboard widget picker: recommended widgets and a built-in sample-data preview",
+      "capturedAt": "2026-11-09T23:10:44.143Z",
+      "bytes": 289971,
+      "width": 2200,
+      "height": 1344,
+      "sha256": "7a397d4ea0fb155f9ead72fbffd6d39dd2833f0a9fabdd6360e1edb0ea5c6dc9",
+      "sourceRevision": "0dd4f59036b6de923a35006850005739e6854b73",
+      "sourceIdentity": "55ee02b9726c6a09ef567d600369350d0aad6f3e8bac7cd04ad5d41a50d4e9c1",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 2
+      },
+      "theme": "light",
+      "activeView": "task-manager-dashboard",
+      "taskCount": 58,
+      "cropSelector": ".tm-dash-widget-picker-modal"
+    }
+  ]
+}

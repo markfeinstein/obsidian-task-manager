@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-12",
+  "categories": ["lintWarnings", "uiLiterals", "importantDeclarations", "inlineStaticStyles"],
+  "startingPoint": {
+    "lintWarnings": 644,
+    "uiLiterals": 1319,
+    "importantDeclarations": 52,
+    "inlineStaticStyles": 153
+  },
+  "targets": [
+    { "deadline": "2026-09-30", "lintWarnings": 580, "uiLiterals": 1100, "importantDeclarations": 45, "inlineStaticStyles": 135 },
+    { "deadline": "2026-12-31", "lintWarnings": 500, "uiLiterals": 900, "importantDeclarations": 38, "inlineStaticStyles": 110 },
+    { "deadline": "2027-03-31", "lintWarnings": 400, "uiLiterals": 675, "importantDeclarations": 30, "inlineStaticStyles": 80 },
+    { "deadline": "2027-06-30", "lintWarnings": 300, "uiLiterals": 450, "importantDeclarations": 20, "inlineStaticStyles": 50 }
+  ]
+}

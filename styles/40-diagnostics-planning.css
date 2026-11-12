@@ -1,0 +1,887 @@
+/* ===== Status Dashboard (DiagnosticsModal) ===== */
+.tm-diagnostics-modal {
+  max-width: 680px;
+}
+
+.tm-diag-section {
+  margin-bottom: 1.4em;
+}
+
+.tm-diag-section h3 {
+  font-size: 0.95em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 0.4em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 2px;
+}
+
+.tm-diag-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 12px;
+}
+
+.tm-diag-row {
+  display: contents;
+}
+
+.tm-diag-label {
+  color: var(--text-normal);
+  font-size: 0.9em;
+  padding: 2px 0;
+}
+
+.tm-diag-value {
+  font-size: 0.9em;
+  font-weight: 600;
+  text-align: right;
+  white-space: nowrap;
+  padding: 2px 0;
+}
+
+.tm-diag-ok   { color: var(--color-green); }
+.tm-diag-warn { color: var(--color-orange); }
+.tm-diag-error{ color: var(--color-red); }
+
+.tm-diag-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 1.2em;
+}
+
+/* ===== Voice Capture ===== */
+.tm-voice-recording-modal,
+.tm-voice-preview-modal {
+  max-width: 520px;
+}
+
+.tm-voice-status {
+  font-weight: 600;
+  color: var(--color-red, #e53935);
+  margin-bottom: 0.6em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+@keyframes tm-voice-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+.tm-voice-status::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-red, #e53935);
+  animation: tm-voice-pulse 1.2s ease-in-out infinite;
+}
+
+.tm-voice-interim {
+  font-style: italic;
+  color: var(--text-muted);
+  min-height: 2.4em;
+  padding: 0.4em 0.6em;
+  border-radius: 4px;
+  background: var(--background-secondary);
+  margin-bottom: 1em;
+}
+
+.tm-voice-section {
+  margin-bottom: 1em;
+}
+
+.tm-voice-label {
+  display: block;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.tm-voice-textarea {
+  width: 100%;
+  font-family: var(--font-text);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 6px 8px;
+  resize: vertical;
+}
+
+.tm-voice-preview {
+  padding: 6px 8px;
+  background: var(--background-secondary);
+  border-radius: 4px;
+  font-size: 0.9em;
+  overflow-x: auto;
+}
+
+.tm-voice-preview-code {
+  font-family: var(--font-monospace);
+  white-space: pre-wrap;
+}
+
+.tm-voice-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 1em;
+}
+
+/* Mic button in sidebar */
+.tm-voice-mic-btn {
+  font-size: 1.1em;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--background-modifier-border);
+  cursor: pointer;
+  background: transparent;
+  transition: background 0.15s;
+}
+
+.tm-voice-mic-btn:hover {
+  background: var(--background-modifier-hover);
+}
+
+.tm-voice-mic-btn.is-recording {
+  background: color-mix(in srgb, var(--color-red, #e53935) 15%, transparent);
+  border-color: var(--color-red, #e53935);
+  animation: tm-voice-pulse 1.2s ease-in-out infinite;
+}
+
+/* ===== P3 Accessibility & Gamification Features ===== */
+
+/* ─ Accessibility: Focus-visible styles ─ */
+:is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]):focus-visible,
+:is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]) :focus-visible {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: 2px;
+}
+
+/* SVG elements for graphs */
+.task-graph circle:focus-visible,
+.task-graph text:focus-visible {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: 2px;
+}
+
+/* ─ Accessibility: Ensure minimum tap targets (WCAG AA - 44x44px) ─ */
+/* Only apply large tap targets on touch / mobile screens */
+@media (pointer: coarse) {
+  :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]) :is(button, input[type="button"], input[type="submit"], input[type="reset"], [role="button"], [role="switch"]) {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 8px 12px;
+  }
+
+  /* Native checkbox/radio controls distort when padded like buttons. Keep the
+     visual control compact and let the containing row/label provide the tap area. */
+  :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]) :is(input[type="checkbox"], input[type="radio"]) {
+    min-width: auto;
+    min-height: auto;
+    padding: 0;
+  }
+}
+
+/* Task list checkboxes */
+.task-manager-query-marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Mobile-friendly query items with better touch targets */
+@media (max-width: 600px) {
+  .task-manager-query-toolbar,
+  .task-manager-table-toolbar,
+  .task-manager-table-active-filters,
+  .task-manager-table-saved-filters,
+  .task-manager-table-bulk-bar,
+  .task-manager-kanban-board-toolbar,
+  .task-manager-calendar-toolbar,
+  .task-manager-panel-header,
+  .task-manager-panel-search-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .task-manager-query-toolbar-actions,
+  .task-manager-kanban-board-switcher,
+  .task-manager-kanban-board-actions,
+  .task-manager-kanban-board-toolbar > .task-manager-kanban-board-mode,
+  .task-manager-kanban-board-toolbar > .task-manager-kanban-board-select,
+  .task-manager-kanban-board-toolbar > .task-manager-kanban-board-label,
+  .task-manager-calendar-today-btn,
+  .task-manager-calendar-view-toggle,
+  .task-manager-panel-header-right,
+  .task-manager-panel-actions,
+  .task-manager-table-search,
+  .task-manager-table-filter-select,
+  .task-manager-kanban-board-select,
+  .task-manager-query-toolbar-filter,
+  .task-manager-query-filter-panel,
+  .task-manager-calendar-popover,
+  .task-manager-panel-action-btn {
+    width: 100%;
+    max-width: none;
+  }
+
+  .task-manager-query-item {
+    padding: 12px 8px;
+    min-height: 50px;
+  }
+  
+  .task-manager-query-marker {
+    min-width: 2rem;
+    min-height: 2rem;
+  }
+
+  /* A touch long-press on a task row opens the task context menu. Suppress the
+     native iOS text-selection callout/magnifier so it doesn't hijack the
+     gesture. The inline description editor re-enables selection below. */
+  .task-manager-query-item {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .task-manager-desc-input {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+
+  .task-manager-query-checklist .task-manager-query-marker-hit {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .task-manager-query-checklist .task-manager-query-marker {
+    width: 1.35rem;
+    height: 1.35rem;
+    min-width: 1.35rem;
+    min-height: 1.35rem;
+  }
+
+  .task-manager-query-checklist .task-manager-checklist-item.is-checked .task-manager-query-marker::after {
+    height: 0.72rem;
+    width: 0.36rem;
+  }
+  
+  .task-manager-query-text {
+    font-size: 16px;
+  }
+
+  .task-manager-calendar-nav,
+  .task-manager-panel-header,
+  .task-manager-panel-search-row {
+    gap: 0.5rem;
+  }
+
+  .task-manager-calendar-day {
+    min-height: 68px;
+  }
+
+  .task-manager-calendar-chip {
+    white-space: normal;
+  }
+
+  .task-manager-kanban-board {
+    gap: 0.75rem;
+    padding: 0.35rem 0;
+  }
+
+  .task-manager-kanban-column {
+    max-width: none;
+    min-width: min(88vw, 320px);
+  }
+
+  .task-manager-table-view {
+    padding: 0.5rem;
+  }
+
+  .task-manager-table-toolbar,
+  .task-manager-table-active-filters,
+  .task-manager-table-saved-filters,
+  .task-manager-table-bulk-bar,
+  .task-manager-query-list,
+  .task-manager-calendar-agenda-view,
+  .task-manager-calendar-unscheduled-panel,
+  .task-manager-settings-info-card,
+  .task-manager-sync-card,
+  .task-manager-panel-row,
+  .task-manager-calendar-popover {
+    border-radius: var(--radius-m);
+  }
+  
+  /* Ensure Task Manager buttons and inputs are touch-friendly without changing Obsidian globally. */
+  :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]) button {
+    min-height: 48px;
+    padding: 10px 14px;
+  }
+  
+  :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]) :is(input:not([type="checkbox"]):not([type="radio"]), textarea) {
+    min-height: 44px;
+    font-size: 16px;
+    padding: 10px 12px;
+  }
+}
+
+/* ─ Accessibility: Skip-to-content link ─ */
+.task-manager-skip-to-content {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+  font-weight: 600;
+}
+
+.task-manager-skip-to-content:focus {
+  top: 0;
+  left: 0;
+}
+
+/* ─ Accessibility: Screen reader only text ─ */
+.task-manager-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ─ Accessibility: High contrast mode ─ */
+@media (prefers-contrast: more) {
+  :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]) button:focus-visible {
+    outline-width: 3px;
+  }
+  
+  /* Enhance contrast for all interactive elements */
+  :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]) :is(button, input, textarea, select, a) {
+    border: 2px solid currentColor;
+  }
+  
+  .task-manager-query-marker {
+    border: 2px solid var(--text-normal);
+  }
+  
+  /* Increase text contrast */
+  .task-manager-query-item {
+    color: var(--text-normal);
+  }
+  
+  /* High contrast for focus indicators */
+  :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]) :focus-visible {
+    outline: 3px solid var(--text-normal) !important;
+    outline-offset: 3px !important;
+  }
+}
+
+/* ─ Accessibility: Reduced motion ─ */
+@media (prefers-reduced-motion: reduce) {
+  :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]),
+  :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*="task-manager-"], [class*="tm-"]) * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ─ Gamification: Achievements sidebar ─ */
+.task-manager-achievements {
+  padding: 0.5em 0;
+  background: var(--background-secondary);
+  border-radius: 6px;
+}
+
+.task-manager-achievements-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  padding: 0.75em 1em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  flex-wrap: wrap;
+}
+
+.task-manager-achievements-level,
+.task-manager-achievements-xp,
+.task-manager-achievements-count {
+  font-size: 0.85em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.task-manager-achievements-level {
+  color: var(--text-normal);
+}
+
+.task-manager-achievements-xp {
+  color: var(--text-muted);
+  font-size: 0.8em;
+}
+
+.task-manager-achievements-count {
+  margin-left: auto;
+  color: var(--text-muted);
+}
+
+.task-manager-achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 0.5em;
+  padding: 0.75em 1em;
+}
+
+.task-manager-achievement-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25em;
+  padding: 0.5em;
+  border: 2px solid var(--interactive-accent);
+  border-radius: 6px;
+  background: var(--background-primary);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.task-manager-achievement-badge:hover {
+  background: var(--background-modifier-hover);
+  transform: scale(1.05);
+}
+
+.task-manager-achievement-badge.task-manager-achievement-locked {
+  opacity: 0.4;
+  border-color: var(--background-modifier-border);
+}
+
+.task-manager-achievement-emoji {
+  font-size: 1.8em;
+  line-height: 1;
+}
+
+.task-manager-achievement-name {
+  font-size: 0.65em;
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-normal);
+  line-height: 1.2;
+}
+
+/* ─ Gamification: Heatmap ─ */
+.task-manager-heatmap {
+  padding: 1em;
+  background: var(--background-secondary);
+  border-radius: 6px;
+}
+
+.task-manager-heatmap-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+
+.task-manager-heatmap-week {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.task-manager-heatmap-day {
+  width: 1.2em;
+  height: 1.2em;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 2px;
+  background: var(--background-primary);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.task-manager-heatmap-day:hover {
+  border-color: var(--interactive-accent);
+  transform: scale(1.1);
+}
+
+.task-manager-heatmap-day.level-0 {
+  background: var(--background-primary);
+  opacity: 0.3;
+}
+
+.task-manager-heatmap-day.level-1 {
+  background: color-mix(in srgb, var(--color-green) 20%, transparent);
+}
+
+.task-manager-heatmap-day.level-2 {
+  background: color-mix(in srgb, var(--color-green) 50%, transparent);
+}
+
+.task-manager-heatmap-day.level-3 {
+  background: color-mix(in srgb, var(--color-green) 75%, transparent);
+}
+
+.task-manager-heatmap-day.level-4 {
+  background: var(--color-green);
+}
+
+/* ─ Keyboard navigation hints ─ */
+.task-manager-kb-hint {
+  display: inline-block;
+  background: var(--background-modifier-border);
+  border-radius: 3px;
+  padding: 0.15em 0.4em;
+  font-size: 0.75em;
+  font-family: var(--font-monospace);
+  color: var(--text-muted);
+  margin-left: 0.3em;
+  white-space: nowrap;
+}
+
+.task-manager-kb-hint::before {
+  content: '[';
+}
+
+.task-manager-kb-hint::after {
+  content: ']';
+}
+
+/* ─ Query row enhancements for keyboard nav ─ */
+.task-manager-query-item {
+  position: relative;
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+}
+
+.task-manager-query-item:focus-within {
+  background: color-mix(in srgb, var(--interactive-accent) 5%, var(--background-secondary));
+  border-color: color-mix(in srgb, var(--interactive-accent) 30%, var(--background-modifier-border));
+}
+
+.task-manager-query-item[data-focused="true"] {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: -2px;
+}
+
+/* ─ Tab order visualization ─ */
+.task-manager-query-marker:focus-visible,
+.task-manager-query-item:focus-within .task-manager-query-marker {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: 1px;
+}
+
+/* ─ Contrast compliance ─ */
+@media (prefers-color-scheme: dark) {
+  .task-manager-achievements-badge {
+    border-color: var(--text-normal);
+  }
+  
+  .task-manager-heatmap-day.level-1 {
+    background: color-mix(in srgb, #4caf50 30%, transparent);
+  }
+  
+  .task-manager-heatmap-day.level-2 {
+    background: color-mix(in srgb, #4caf50 60%, transparent);
+  }
+  
+  .task-manager-heatmap-day.level-3 {
+    background: color-mix(in srgb, #4caf50 80%, transparent);
+  }
+}
+
+/* ─ Responsive adjustments for accessibility ─ */
+@media (max-width: 768px) {
+  .task-manager-achievements-grid {
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    gap: 0.3em;
+    padding: 0.5em;
+  }
+  
+  .task-manager-heatmap-container {
+    gap: 0.2em;
+  }
+  
+  .task-manager-heatmap-day {
+    width: 1em;
+    height: 1em;
+  }
+
+  .task-manager-calendar-nav,
+  .task-manager-panel-header,
+  .task-manager-query-toolbar,
+  .task-manager-kanban-board-toolbar {
+    padding: 0.45rem 0.5rem;
+  }
+
+  .task-manager-calendar-grid,
+  .task-manager-calendar-grid-week {
+    gap: 0.25rem;
+  }
+
+  .task-manager-calendar-day-header {
+    font-size: 0.7em;
+  }
+}
+
+/* ─ Print styles for accessibility ─ */
+@media print {
+  .task-manager-skip-to-content {
+    display: none;
+  }
+}
+
+/* Planning Board screen styles */
+  .planning-board-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 0.5rem;
+  }
+
+  .planning-board-tabs {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--divider-color);
+  }
+
+  .planning-board-tab-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    background: var(--background-secondary);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+  }
+
+  .planning-board-tab-btn:hover {
+    background: var(--background-tertiary);
+  }
+
+  .planning-board-tab-btn.is-active {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border-color: var(--interactive-accent);
+  }
+
+  .planning-board-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+  }
+
+  .planning-board-tab-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .planning-board-estimate-total {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--background-secondary);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .planning-board-undo {
+    margin-inline-start: auto;
+  }
+
+  .planning-board-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .planning-board-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: var(--background-secondary);
+    border: 1px solid var(--divider-color);
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    cursor: grab;
+  }
+
+  .planning-board-card:hover {
+    border-color: var(--interactive-accent);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .planning-board-card:active {
+    cursor: grabbing;
+  }
+
+  .planning-board-card-header {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .planning-board-expand-btn,
+  .planning-board-expand-placeholder {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+
+  .planning-board-expand-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-muted);
+    padding: 0;
+    transition: color 0.2s ease;
+  }
+
+  .planning-board-expand-btn:hover {
+    color: var(--text-normal);
+  }
+
+  .planning-board-expand-placeholder {
+    visibility: hidden;
+  }
+
+  .planning-board-card-info {
+    appearance: none;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0;
+    text-align: start;
+  }
+
+  .planning-board-card-title {
+    font-weight: 600;
+    word-break: break-word;
+    font-size: 0.95rem;
+  }
+
+  .planning-board-priority {
+    --planning-priority-color: var(--text-muted);
+    display: inline-block;
+    width: fit-content;
+    padding: 0.15rem 0.4rem;
+    border: 1px solid var(--planning-priority-color);
+    border-radius: 3px;
+    background: color-mix(in srgb, var(--planning-priority-color) 14%, transparent);
+    color: var(--text-normal);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .planning-board-priority.priority-highest { --planning-priority-color: var(--color-red); }
+  .planning-board-priority.priority-high { --planning-priority-color: var(--color-orange); }
+  .planning-board-priority.priority-medium { --planning-priority-color: var(--color-yellow); }
+  .planning-board-priority.priority-low { --planning-priority-color: var(--color-blue); }
+  .planning-board-priority.priority-lowest { --planning-priority-color: var(--text-muted); }
+
+  .planning-board-estimate {
+    display: inline-block;
+    width: fit-content;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    background: var(--background-tertiary);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+  }
+
+  .planning-board-due-date {
+    display: inline-block;
+    width: fit-content;
+    font-size: 0.8rem;
+    color: var(--text-accent);
+    font-weight: 500;
+  }
+
+  .planning-board-empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  /* Single column layout for mobile (375px and narrower) */
+  @media (max-width: 375px) {
+    .planning-board-cards {
+      grid-template-columns: 1fr;
+    }
+
+    .planning-board-tabs {
+      padding: 0.25rem;
+    }
+
+    .planning-board-tab-btn {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.8rem;
+    }
+
+    .planning-board-content {
+      padding: 0.5rem;
+    }
+  }
+
+
+/* ===== Pomodoro modal ===== */
+.pomodoro-timer {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.pomodoro-bar-bg {
+  height: 8px;
+  background: var(--background-modifier-border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.pomodoro-bar-fill {
+  width: var(--task-manager-pomodoro-progress, 0%);
+  height: 100%;
+  background: var(--interactive-accent);
+  transition: width 1s linear;
+}
+
+.pomodoro-btns {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}

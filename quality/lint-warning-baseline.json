@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "totalWarnings": 572,
+  "entries": {
+    "tests/advanced-find.test.ts": {
+      "@typescript-eslint/no-explicit-any": 6
+    },
+    "tests/calendar-renderer.test.ts": {
+      "@typescript-eslint/no-explicit-any": 10
+    },
+    "tests/canvas-exporter.test.ts": {
+      "@typescript-eslint/no-explicit-any": 3
+    },
+    "tests/cli-handler.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 22
+    },
+    "tests/core.test.ts": {
+      "@typescript-eslint/no-explicit-any": 29,
+      "@typescript-eslint/no-non-null-assertion": 94
+    },
+    "tests/custom-fields.test.ts": {
+      "@typescript-eslint/no-explicit-any": 3,
+      "@typescript-eslint/no-non-null-assertion": 2
+    },
+    "tests/daily-planner-modal.test.ts": {
+      "@typescript-eslint/no-explicit-any": 13
+    },
+    "tests/dashboard.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 14
+    },
+    "tests/deferred-wave-a.test.ts": {
+      "@typescript-eslint/no-explicit-any": 1,
+      "@typescript-eslint/no-non-null-assertion": 3
+    },
+    "tests/deferred-wave-c.test.ts": {
+      "@typescript-eslint/no-explicit-any": 17
+    },
+    "tests/durable-identity.test.ts": {
+      "@typescript-eslint/no-explicit-any": 4
+    },
+    "tests/eisenhower-renderer.test.ts": {
+      "@typescript-eslint/no-explicit-any": 3,
+      "@typescript-eslint/no-non-null-assertion": 1
+    },
+    "tests/exporters.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 32
+    },
+    "tests/file-task-notes.test.ts": {
+      "@typescript-eslint/no-explicit-any": 3
+    },
+    "tests/google-calendar-sync.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 9
+    },
+    "tests/kanban-renderer.test.ts": {
+      "@typescript-eslint/no-explicit-any": 24,
+      "@typescript-eslint/no-non-null-assertion": 23
+    },
+    "tests/metrics-aggregator.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 21
+    },
+    "tests/mobile-uri.test.ts": {
+      "@typescript-eslint/no-explicit-any": 14
+    },
+    "tests/natural-date.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 8
+    },
+    "tests/nlp-query.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 2
+    },
+    "tests/numeric-filters.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 47
+    },
+    "tests/p0-review-fixes.test.ts": {
+      "@typescript-eslint/no-explicit-any": 3
+    },
+    "tests/p2a-visual-infra.test.ts": {
+      "@typescript-eslint/no-explicit-any": 7
+    },
+    "tests/planning-board-hierarchy.test.ts": {
+      "@typescript-eslint/no-explicit-any": 22
+    },
+    "tests/pomodoro-modal.test.ts": {
+      "@typescript-eslint/no-explicit-any": 6
+    },
+    "tests/prd-features.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 25
+    },
+    "tests/query-builder.test.ts": {
+      "@typescript-eslint/no-explicit-any": 15
+    },
+    "tests/query-polish.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 2
+    },
+    "tests/quick-capture-modal.test.ts": {
+      "@typescript-eslint/no-explicit-any": 5
+    },
+    "tests/simple-modals.test.ts": {
+      "@typescript-eslint/no-explicit-any": 18
+    },
+    "tests/sync-conflict-review.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 11
+    },
+    "tests/sync-contract.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 4
+    },
+    "tests/task-history.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 5
+    },
+    "tests/task-query.test.ts": {
+      "@typescript-eslint/no-explicit-any": 13,
+      "@typescript-eslint/no-non-null-assertion": 2
+    },
+    "tests/task-scanner-history.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 6
+    },
+    "tests/task-scanner.test.ts": {
+      "@typescript-eslint/no-explicit-any": 3,
+      "@typescript-eslint/no-non-null-assertion": 1
+    },
+    "tests/test-utils.ts": {
+      "@typescript-eslint/no-explicit-any": 4
+    },
+    "tests/time-sessions.test.ts": {
+      "@typescript-eslint/no-explicit-any": 4
+    },
+    "tests/timeline-renderer.test.ts": {
+      "@typescript-eslint/no-explicit-any": 3,
+      "@typescript-eslint/no-non-null-assertion": 2
+    },
+    "tests/wave-d1-oauth-pkce.test.ts": {
+      "@typescript-eslint/no-explicit-any": 1
+    },
+    "tests/wikilink-dates.test.ts": {
+      "@typescript-eslint/no-non-null-assertion": 2
+    }
+  },
+  "policy": "Counts are maximums keyed by file and rule. New paths/rules or count increases fail; decreases are ratchet opportunities."
+}

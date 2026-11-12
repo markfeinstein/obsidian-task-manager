@@ -1,0 +1,5236 @@
+{
+  "schemaVersion": 1,
+  "totalLiterals": 1083,
+  "entries": {
+    "src/calendar-renderer.ts": [
+      {
+        "context": "createDiv:text",
+        "text": "No dated tasks in this week.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "No scheduled work",
+        "count": 1
+      },
+      {
+        "context": "createEl:placeholder",
+        "text": "Filter unscheduled...",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "‹",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "›",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "+",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "+ Add task",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "◦",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Filter unscheduled tasks",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "ICS",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "No tasks or calendar events for this day",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Open day",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Today",
+        "count": 2
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Add unscheduled task",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Calendar view",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Next calendar period",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Next day",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Previous calendar period",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Previous day",
+        "count": 1
+      }
+    ],
+    "src/commands/command-helpers.ts": [
+      {
+        "context": "Notice",
+        "text": "Task Manager: archive/collect completion requires a saved task. Save the note, then complete it from a query, dashboard, or reading view.",
+        "count": 1
+      }
+    ],
+    "src/commands/register-advanced-commands.ts": [
+      {
+        "context": "Notice",
+        "text": "No active file",
+        "count": 3
+      },
+      {
+        "context": "Notice",
+        "text": "No task at cursor",
+        "count": 1
+      }
+    ],
+    "src/commands/register-core-task-commands.ts": [
+      {
+        "context": "Notice",
+        "text": "Cannot cycle status: line is not a task",
+        "count": 2
+      },
+      {
+        "context": "Notice",
+        "text": "Cannot set status: line is not a task or does not match global filter",
+        "count": 2
+      },
+      {
+        "context": "Notice",
+        "text": "Cannot toggle status: line is not a task or does not match global filter",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Line is already a task",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "No file in current view",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "No task at cursor",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task has no due/scheduled/start date to postpone",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager has no saved queries",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager state cache reset",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager test entry logged",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: cursor is not on a task line.",
+        "count": 2
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: no active file.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: nothing to parse on this line",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: parsed natural language task",
+        "count": 1
+      }
+    ],
+    "src/commands/register-export-commands.ts": [
+      {
+        "context": "Notice",
+        "text": "Task Manager: cursor is not on a recurring task.",
+        "count": 2
+      }
+    ],
+    "src/commands/register-sync-commands.ts": [
+      {
+        "context": "Notice",
+        "text": "Task Manager: exported tasks to Task Canvas.canvas",
+        "count": 1
+      }
+    ],
+    "src/dashboard-widget-modals.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Dashboard shortcuts",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Widget shortcuts",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Any Task Manager query — e.g. \"not done\\nsort by due\".",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "The heading shown on this card.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Query",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Title",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "not done sort by due",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Widget title",
+        "count": 1
+      }
+    ],
+    "src/dashboard.ts": [
+      {
+        "context": "createDiv:text",
+        "text": "25:00",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "640 XP",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Add",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Advanced",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Complete tasks to unlock achievements.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Copy this JSON to import the dashboard into another vault or keep it as a backup.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Example task",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "No dated work in the next 14 days.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "No recent completions — finish a few tasks to forecast.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "No widgets match your search.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "None",
+        "count": 2
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Note-backed dashboard",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Oldest in progress",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Other registered dashboard widgets.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Paste dashboard JSON exported from Task Manager. Imported dashboards are added as new dashboards.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Preview",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Ready for focus",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Search by name or description, or browse grouped widget types.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Shortlist",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Start from a built-in workflow or one of your saved dashboard templates.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "+",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "−",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Add",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Add dashboard widget",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Add widget",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Add widgets to surface your agenda, overdue tasks, progress and more.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Add your first widget",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Cancel",
+        "count": 3
+      },
+      {
+        "context": "createEl:text",
+        "text": "Clean up layout",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Clear",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Close",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Copy JSON",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Date order",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Delete selected",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Done",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Import",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Import dashboard",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Log",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "New dashboard from template",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "No active tasks",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Pause",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Save",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Save dashboard as template",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Save template",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Select all",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Show",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Skip to dashboard widgets",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Start",
+        "count": 3
+      },
+      {
+        "context": "createEl:text",
+        "text": "Use template",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Your dashboard is empty",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "→",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "0 selected",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "5",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Captured",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "LVL",
+        "count": 2
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Manual order",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Open today’s note",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Preview",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Recommended next action",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Sample data",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Today",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: cannot delete the last dashboard.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: could not open today’s note.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: dashboard deleted.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: dashboard JSON copied to clipboard.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: dashboard layout cleaned up.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: dashboard layout is already clean.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: dashboard name cannot be empty.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: paste dashboard JSON first.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: select the JSON and copy it manually.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: source file not found for dashboard task.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: source file not found.",
+        "count": 5
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "About this widget",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Active dashboard",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Decrease daily goal",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Increase daily goal",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Skip to dashboard widgets",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "About this widget",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Clear the manual arrangement and sort by date again",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Click to collapse or expand",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Shown in the template picker.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Dashboard JSON",
+        "count": 2
+      },
+      {
+        "context": "setName",
+        "text": "Description",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Template name",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "{ \"kind\": \"task-manager-dashboard-layout\", ... }",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "What this dashboard is useful for…",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Choose an active task first.",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Paused.",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Running…",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Task capture is unavailable.",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Clear selection",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Configure query",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Delete dashboard",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Duplicate dashboard",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Export all dashboards",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Export dashboard",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Import dashboard",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "New blank dashboard",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "New from template",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Remove widget",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Rename",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Rename dashboard",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Save as template",
+        "count": 1
+      }
+    ],
+    "src/eisenhower-renderer.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Clear Filter",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "High priority = highest/high · Urgent = due today or overdue · Click quadrant header to filter",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "No tasks",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Eisenhower priority matrix",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Click to edit",
+        "count": 1
+      }
+    ],
+    "src/gantt-renderer.ts": [
+      {
+        "context": "createEl:text",
+        "text": "‹ Previous",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Fit",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Next ›",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Timeline range",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Today",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Show next timeline range",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Show previous timeline range",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Task dependencies",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Task Gantt timeline",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Drag to change due date",
+        "count": 1
+      }
+    ],
+    "src/habit-tracker.ts": [
+      {
+        "context": "createEl:text",
+        "text": "No habits found. Tag recurring tasks with #habit to track them here.",
+        "count": 1
+      }
+    ],
+    "src/kanban-renderer.ts": [
+      {
+        "context": "createDiv:text",
+        "text": "Drop here",
+        "count": 1
+      },
+      {
+        "context": "createEl:placeholder",
+        "text": "+ Add quick task",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "+",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "＋",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "⋯",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✎",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "⧉",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🗑",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Board",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Edit",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Create new board",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Delete board",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Duplicate board",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Edit board",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Switch Kanban board",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Edit task",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "More actions",
+        "count": 1
+      }
+    ],
+    "src/main.ts": [
+      {
+        "context": "createEl:text",
+        "text": "⏱ Snooze",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✓ Done",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Acknowledge All",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Dismiss",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Open First",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "⏱ Clocked out (0 minutes)",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Please specify a target note path",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager added Query File Defaults properties",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: CalDAV sync is disabled.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: CalDAV sync is not configured. Add a server URL, username, and password in settings.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: clipboard reading is unavailable on this device.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: could not parse this file as a task.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: cursor is not on a task line.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: diagnostics written to \"Task Status Diagnostics.md\"",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Enable “Append daily statistics summary” in settings first.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: enable Apple Reminders and clipboard JSON import in settings first.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: enable Obsidian Bases integration before exporting Bases files.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: enable Obsidian Bases integration before generating Bases views.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: generated Task Command Center.md",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: generated Task Health Report.md",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Google Calendar sync is not configured. Enable it and paste an OAuth access or refresh token in settings.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Google Tasks dry run requires a currently valid access token; dry run will not refresh or persist credentials.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Google Tasks sync is not configured. Add an OAuth client ID or paste an OAuth access or refresh token in settings.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Google Tasks sync is not enabled.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: line is not a task or does not match global filter",
+        "count": 3
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Microsoft To Do dry run requires a currently valid access token; dry run will not refresh or persist credentials.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Microsoft To Do dry run requires a non-expired access token; dry run will not refresh or persist credentials.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Microsoft To Do sync is disabled.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Microsoft To Do token not configured. Add an Azure app client ID or paste an access token in settings.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: no active file.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: no Canvas checklist tasks found.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: no completed tasks to archive.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: no target file selected.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: no templates configured. Add templates in settings.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: open a project workspace note to refresh it.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: open a project workspace note to refresh it. This note was left unchanged.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: open the dashboard once before saving it as a note.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Opened Google Tasks PKCE login. Complete sign-in, then paste the callback URL in the OAuth modal.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Opened Microsoft To Do PKCE login. Complete sign-in, then paste the callback URL in the OAuth modal.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: pending task moves could not be reconciled. No move data was discarded; review the task health report and plugin logs.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: remote ICS URL import is disabled because the mobile-safe runtime cannot pin DNS and reject redirects. Download the calendar and use a reviewed local conversion workflow instead.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: secure credential storage is unavailable. Active credentials were not saved; update Obsidian and retry.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: System notification permission already granted.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: System notification permission denied — falling back to in-app notices.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: System notifications are not supported in this environment.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: System notifications enabled. ✅",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: task marked done.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: this file is not a task-note.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: Todoist sync is not configured. Enable it and add your API key in settings.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Voice capture requires a browser with Web Speech API or a configured Whisper API key.",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Edit task",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Postpone task",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Cancel",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Move",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Append under this heading in the target note. Leave blank to append at the end.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Path of the note to move this task to (e.g. Projects/Work.md).",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Target note",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Under heading (optional)",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "## Inbox",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Notes/Tasks.md",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "⏩",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "✎",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Move task to…",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Remove date",
+        "count": 2
+      }
+    ],
+    "src/microsoft-todo-sync.ts": [
+      {
+        "context": "assign:title",
+        "text": "Untitled",
+        "count": 1
+      }
+    ],
+    "src/migration-wizard.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Back",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "Cancel",
+        "count": 3
+      },
+      {
+        "context": "createEl:text",
+        "text": "Close",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Conflict resolution strategy:",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Copy tasks already present in this vault into stable task-note files. This workflow does not contact external services.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Copy the complete original task line (including inline metadata)",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Detailed Results",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Dry run (preview changes without saving)",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Local Copy Summary",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Next",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Source: tasks already stored in this vault",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Step 1 of 3: Confirm local source",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Step 2 of 3: Configure local copy options",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Step 3 of 3: Review and confirm",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Summary",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Target vault folder",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Tasks are copied to stable Markdown files. Existing source tasks are never removed.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "This is a dry-run preview. No tasks will be modified.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Use local vault tasks",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Vault Task Note Copy Report",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Vault Task Note Migration",
+        "count": 3
+      },
+      {
+        "context": "createEl:text",
+        "text": "Warnings",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Review the options, then generate a no-write preview.",
+        "count": 1
+      }
+    ],
+    "src/mobile-notifier.ts": [
+      {
+        "context": "Notice",
+        "text": "Task Manager: background mobile reminders require a native notification bridge; Obsidian must stay open for in-app reminder notices.",
+        "count": 1
+      }
+    ],
+    "src/mobile-uri-capture.ts": [
+      {
+        "context": "Notice",
+        "text": "External Task Manager URI actions are disabled",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "External Task Manager URI secret is missing or invalid",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Invalid task URI format",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "No file specified",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "No task title provided",
+        "count": 2
+      },
+      {
+        "context": "Notice",
+        "text": "Task callback URL blocked",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task title and due date required for scheduling",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "The file parameter is supported only for focus-note",
+        "count": 1
+      }
+    ],
+    "src/modals/autosuggest.ts": [
+      {
+        "context": "setText",
+        "text": "/nl",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "/when",
+        "count": 1
+      }
+    ],
+    "src/modals/daily-planner-modal.ts": [
+      {
+        "context": "createSpan:text",
+        "text": "Loading tasks…",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Daily planning steps",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Drag to reorder",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Daily Planning Assistant",
+        "count": 1
+      }
+    ],
+    "src/modals/dependency-modals.ts": [
+      {
+        "context": "setPlaceholder",
+        "text": "Search tasks that should depend on this task",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Search tasks to depend on",
+        "count": 1
+      }
+    ],
+    "src/modals/diagnostics-modal.ts": [
+      {
+        "context": "createEl:text",
+        "text": "⚙️ Feature Toggles",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "⚠️ Recent Scan Errors",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✅ No errors recorded.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✅ No warnings.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🎯 Tasks by Priority (non-done)",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🏥 Health Indicators",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "💾 Memory",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "📊 Tasks by Status",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "📋 Generate Health Report",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "📦 Plugin Info",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🔄 Run Full Scan Now",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🔄 Sync Connections",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🔍 Last Vault Scan",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🔔 Settings Warnings",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🔧 Plugin Status Dashboard",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Clear runs",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Latest run",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "No active tasks.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Recent runs",
+        "count": 1
+      }
+    ],
+    "src/modals/google-calendar-setup-wizard.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Google Calendar setup",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "OAuth mode: start PKCE, paste the callback code, then save tokens into settings.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Pick a simple setup path. You can keep capture local-only or enable Google Calendar sync with OAuth.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "PKCE started. Open the browser window, finish Google login, then paste the redirected callback URL below.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Google Calendar client ID is required",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Google Calendar OAuth saved.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Google Calendar PKCE is not ready",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Google Calendar PKCE started. Complete the browser sign-in, then paste the code here.",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Clear",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Close",
+        "count": 2
+      },
+      {
+        "context": "setButtonText",
+        "text": "Exchange code and save",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Open quick add",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Paste clipboard",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Bearer token with calendar.events scope.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Local only keeps the quick-add path simple. Google Calendar sync enables OAuth-backed writeback.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Required for PKCE or refresh-token flow.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Used to refresh expired access tokens.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Authorization callback URL",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Google Calendar access token",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Google Calendar client ID",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Google Calendar refresh token",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Setup mode",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "1//...",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "client-id.apps.googleusercontent.com",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Paste the redirected callback URL",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "ya29...",
+        "count": 1
+      }
+    ],
+    "src/modals/google-tasks-oauth-modal.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Finish Google sign-in, then paste the redirected callback URL here to save refreshable tokens.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Google Tasks OAuth",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Google Tasks OAuth is not ready",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Google Tasks OAuth saved.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Paste the full Google Tasks callback URL so OAuth state can be verified.",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Close",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Exchange code and save",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Paste clipboard",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Authorization callback URL",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Paste callback URL",
+        "count": 1
+      }
+    ],
+    "src/modals/microsoft-todo-oauth-modal.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Finish Microsoft sign-in, then paste the redirected callback URL here to save refreshable tokens.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Microsoft To Do OAuth",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Microsoft To Do OAuth is not ready",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Microsoft To Do OAuth saved.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Paste the full Microsoft To Do callback URL so OAuth state can be verified.",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Close",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Exchange code and save",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Paste clipboard",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Authorization callback URL",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Paste callback URL",
+        "count": 1
+      }
+    ],
+    "src/modals/quick-capture-modal.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Calendar task quick add",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Create a local task that can later sync to Google Calendar. Keep the note short, then add the date and optional title.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task title is required",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Cancel",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Use one line like “tomorrow 3pm planning #team” or leave blank to fill the fields below.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Date",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Quick input (optional)",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Task title",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Time (optional)",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "09:00",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "2026-06-11",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Team planning",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Tomorrow 3pm planning #team",
+        "count": 1
+      }
+    ],
+    "src/modals/simple-modals.ts": [
+      {
+        "context": "createEl:text",
+        "text": "⚠️ Experimental Sync Service",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "⚡ Working On",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "✅ I Understand & Continue",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✅ To enable this service, click \"I Understand & Continue\" below.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🔍 Run Saved Query",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Always backup your vault before enabling",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Cancel",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "Check the sync health dashboard in plugin diagnostics",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Close",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Create",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Create Project Workspace",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Creates a safe workspace note with query/template references. It does not mutate project notes.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Loading…",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "No in-progress tasks found. Mark a task as [/] to track it here.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "No saved queries. Add some in Settings → Saved queries.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "No tasks matched.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Query:",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Run",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Test with a small subset of tasks first",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Testing connection...",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "This feature may have bugs or data loss risks",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Tip: Use the Pomodoro command to start a focus timer on any of these tasks.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Workspace note folder. Created if missing.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Folder",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Project name",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Choose a saved Task Manager query",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Choose where to insert the inline task",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "New Project",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Projects",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Search tasks…",
+        "count": 1
+      }
+    ],
+    "src/modals/task-edit-modal.ts": [
+      {
+        "context": "assign:title",
+        "text": "Auto-revealed: field has a value",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "⚙ Fields",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Temporarily display all available fields regardless of visibility settings.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Toggle which fields appear in this dialog.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Configure visible fields",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Dependency helpers",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Show all fields",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "YYYY-MM-DD, tomorrow, 10 days",
+        "count": 1
+      }
+    ],
+    "src/modals/voice-capture-modal.ts": [
+      {
+        "context": "createDiv:text",
+        "text": "…listening",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "● Recording — speak your task…",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "⏹ Stop & Preview",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🎤 Voice Capture",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Cancel",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Recording status",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "⏳ Preparing preview…",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "⏳ Working…",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Processing your recording. This may take a moment.",
+        "count": 1
+      }
+    ],
+    "src/modals/weekly-review-modal.ts": [
+      {
+        "context": "createEl:text",
+        "text": "↗",
+        "count": 1
+      }
+    ],
+    "src/planning-board.ts": [
+      {
+        "context": "setAttr:aria-label",
+        "text": "Planning range",
+        "count": 1
+      }
+    ],
+    "src/query-builder.ts": [
+      {
+        "context": "createEl:text",
+        "text": "✕",
+        "count": 3
+      }
+    ],
+    "src/query-polish.ts": [
+      {
+        "context": "createEl:text",
+        "text": "⚠️ Warnings",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✓ Query is valid",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "❌ Errors",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "💡 Suggestions",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Auto-fix",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Cancel",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Close",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Explain",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Query Editor",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Query Explanation",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Save",
+        "count": 1
+      }
+    ],
+    "src/query-renderer.ts": [
+      {
+        "context": "createEl:text",
+        "text": "⏩ +1 day",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✓ Complete",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✕ Cancel",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🏷 Tag…",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🏷− Untag…",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "📅 Reschedule…",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🔼 Priority…",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Achievements",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Burndown (Remaining Effort)",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Burndown & Burnup Charts",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Burnup (Cumulative Completed)",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "By priority (open)",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "By status",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Cancel",
+        "count": 3
+      },
+      {
+        "context": "createEl:text",
+        "text": "Choose a new due date for all selected tasks:",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Clear",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "Completions (last 30 days)",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Delete",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Delete task?",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Estimation Variance Report",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Reschedule",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Reschedule selected tasks",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Save",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "This removes the task line (and any indented sub-items) from the note. This cannot be undone from here.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Velocity (Tasks/Week)",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": ",",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "⛔",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Cannot reorder tasks across different files",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Canvas tasks are read-only for custom field edits.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Canvas tasks are read-only for rescheduling.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "No tags on selected tasks.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: could not save description — file was modified by another process",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Task Manager: no date field to postpone",
+        "count": 2
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Collapse subtasks",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Edit query",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Filter by tag",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "More tag filters",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Task query options",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Double-click to edit description",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Drag to reorder",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Edit query source",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Edit task",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Invalid recurrence rule — this task will not auto-recur",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Postpone task",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Select all",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Select task",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Start / stop focus timer for this task",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Task query options",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Choose target file to move task to…",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "</>",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "⋯",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "⏩",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "▾",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "⚠️",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "✎",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "⠇",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "⠿",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "🎯",
+        "count": 2
+      },
+      {
+        "context": "setText",
+        "text": "All",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Clear filters",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Copy results",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Export…",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "{} Download JSON file",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "≡≡ Download YAML file",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "📋 Download CSV file",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Copy as CSV",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Copy as JSON",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Copy as Markdown table",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Copy results",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Delete task",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Edit query source",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Edit recurrence rule…",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Export…",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Move to file…",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Postpone next occurrence by 1 day",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Remove date",
+        "count": 2
+      },
+      {
+        "context": "setTitle",
+        "text": "Save CSV to vault…",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Save JSON to vault…",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Save YAML to vault…",
+        "count": 1
+      },
+      {
+        "context": "setTitle",
+        "text": "Skip this occurrence (complete without recurring)",
+        "count": 1
+      }
+    ],
+    "src/settings.ts": [
+      {
+        "context": "assign:title",
+        "text": "Days",
+        "count": 1
+      },
+      {
+        "context": "assign:title",
+        "text": "Display name",
+        "count": 1
+      },
+      {
+        "context": "assign:title",
+        "text": "Field key used in [key:: value] and task.customFields.key. Use letters, numbers, and underscores only; hyphenated keys are ignored.",
+        "count": 1
+      },
+      {
+        "context": "assign:title",
+        "text": "Months",
+        "count": 1
+      },
+      {
+        "context": "assign:title",
+        "text": "Optional frontmatter key override",
+        "count": 1
+      },
+      {
+        "context": "assign:title",
+        "text": "Select options, comma-separated",
+        "count": 1
+      },
+      {
+        "context": "assign:title",
+        "text": "Sort value (higher = more urgent)",
+        "count": 1
+      },
+      {
+        "context": "assign:title",
+        "text": "Weeks",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Markdown-native task management with query views, sync adapters, automation, and visual planning surfaces.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Shared presets back both table filters and Kanban boards. Editing here keeps legacy surfaces in sync and is safe to use as the source of truth for new presets.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Appearance",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Calendar quick add",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Capacity Analytics",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Coefficients used in the urgency score formula. Defaults match the upstream obsidian-tasks values.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Configure Pomodoro work/break cycles for the focus timer. Use the 🍅 button on any task in a query result to start a Pomodoro session.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Custom fields",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Custom priority scale",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Date output",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Define a custom set of priority levels. When non-empty, these replace the built-in Highest/High/Medium/Normal/Low/Lowest levels. Higher value = more urgent.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Define extra task fields parsed from Dataview inline fields such as [energy:: high] and matching file frontmatter. Use filter by function task.customFields.energy === \"high\" in queries.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Define reusable task skeletons that can be inserted via the 'Insert task from template' command.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Earn achievement badges and points for completing tasks and maintaining streaks.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Gamification",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Google advanced",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Google sync",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Habit tracking",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Kanban boards",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Mobile gestures",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Natural language task entry",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "No custom fields defined. Add one to parse matching [key:: value] inline fields and file frontmatter properties.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "No custom priorities defined. Using built-in Highest/High/Medium/Normal/Low/Lowest levels.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Notifications",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "On-completion: archive",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "On-completion: collect",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Pomodoro timer",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Presets:",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Preview:",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Quick capture",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Recurring tasks tagged #habit get a streak heatmap in the sidebar panel.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Reminder notifications",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Saved view presets",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Setup wizard",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Sync conflict resolution",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Sync observability",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Table view",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Task templates",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Track daily task capacity and generate weekly analytics reports. Weekly summary command: task manager: weekly summary.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Urgency weights",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Use the 'Generate weekly completion summary' and 'Generate monthly completion summary' commands to roll up log entries into a review note.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "View polish",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "When a task has 🏁 archive, it is appended to the note and heading below when marked done.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "When a task has 🏁 collect, it is appended to the note and heading below when marked done.",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Task Manager",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Template name cannot be empty",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Days",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Months",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Settings categories",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Weeks",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "-",
+        "count": 5
+      },
+      {
+        "context": "setButtonText",
+        "text": "▲",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "▼",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Add",
+        "count": 3
+      },
+      {
+        "context": "setButtonText",
+        "text": "Add field",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Add priority",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Add template",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Add unknown statuses",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Cancel",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Clear all (use built-in)",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Clear fields",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Delete",
+        "count": 2
+      },
+      {
+        "context": "setButtonText",
+        "text": "Duplicate",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Edit",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Focus fields",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Merge",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Rebuild",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Restore defaults",
+        "count": 2
+      },
+      {
+        "context": "setButtonText",
+        "text": "Restore predefined",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "Save",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Add a source note link when the completed task is not in today's daily note.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Add custom columns as key:Label:type:options:color:required. Types: text, number, date, checkbox, list. List options may use value|#hex for per-value colors.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Add keyboard access keys to fields in the create/edit task dialog. Turn off if they conflict with system shortcuts or assistive technology.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Add today’s created date when Task Manager creates a new task or a new recurrence.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Adjust padding and line height in task query results.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Adjust task row text size in Task Manager views.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Allow filter/sort/group by function expressions. Disable to lock down shared vaults or restrict queries to built-in filters only.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Allow vault-targeted obsidian:// Task Manager links to create tasks or focus notes. Keep this off unless you use trusted automation.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Append a brief statistics line to today’s daily note after each task completion (e.g. ✅ 9 tasks completed today).",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Append a cancelled date when Task Manager changes a task to a Cancelled status.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Append a done date when Task Manager changes a task to a Done status.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Append a new checkbox state. Same-type rows act as aliases during transitions.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Append a new relative offset option to the defer/postpone menu.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Automatically assign a unique ID (🆔) to every new task created through the Create/Edit modal. Required for dependencies and external integrations.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Available focus minutes per day, used by the Capacity planner and Schedule conflicts dashboard widgets.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Comma-separated column keys. Leave blank for the default table column set.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Comma-separated columns for custom boards.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Comma-separated folder list. Leave blank to apply to the whole vault.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Comma-separated folder paths where files should be treated as task-note files (e.g., \"Tasks, Projects\"). Files in these folders are scanned as single-task notes using frontmatter.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Comma-separated list of visible columns.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Completed Pomodoro work sessions automatically accumulate into the task's 🕐 actual time field.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Control dashboard card spacing, headers, and touch targets.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Controls whether Task Manager also renders ```tasks blocks. Reload the plugin after changing this. Use “Always” only if you want Task Manager to handle existing Tasks queries even when the upstream Tasks plugin is installed.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Create a table filter or Kanban board to populate this shared preset list.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Create reusable query blocks that can be inserted from the command palette.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Default board used by dedicated Kanban views and query Kanban selectors.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Default ordering for Task Manager query results when a query does not choose its own sort.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Duration of each Pomodoro work block.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Duration of the long break taken every N work blocks.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Duration of the short break after each work block.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Enable Task Manager’s safe expression DSL for filter/sort/group by function. This is not JavaScript and cannot execute arbitrary code.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Fire an Obsidian notice when a task’s reminder time (⏰) arrives. Polls on the interval below.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Folder where promoted task notes are created by the 'Promote task to note' command.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "For queries, infer a scheduled date from filenames containing YYYY-MM-DD or YYYYMMDD when a task has no due, scheduled, or start date.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Format used when Task Manager writes tasks from its modal. Existing emoji and Dataview fields are both parsed.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Frontmatter property prefix for file-scoped task defaults (e.g. task_ matches task_due, task_priority, task_tags).",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Group settings into tabs instead of rendering every section in one long page.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Heading in the daily note where completed tasks will be appended.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Heading inside the archive file to append tasks under.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Heading inside the collect file to append tasks under.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Heading written to today's daily note when the daily planning assistant completes a session.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Hide the global filter text in rendered task descriptions and stable task keys. When off, tasks still require the global filter but descriptions keep it visible.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "How many future instances to pre-generate when completing a recurring task. Default 1 keeps the current completed task plus the next task available.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "How often to poll for due reminders (1–60).",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "How tasks are grouped on the board.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Lines that start with this prefix (followed by a space) are auto-converted on Enter. Default: !! — e.g. \"!! call dentist Friday urgent\" → \"- [ ] call dentist ⏳ 2026-06-06 ⏫\"",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Max future occurrences to show when `shows future occurrences` appears in a query. Set to 0 to disable projections.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Maximum suggestions shown in the editor suggestion popup.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Moment.js format used for log entry times, for example HH:mm or h:mm A.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Moment.js format used when rendering dates in query results (e.g. MMM D, DD/MM/YYYY). Leave blank for the default YYYY-MM-DD.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Mustache-style template for completion log entries. Variables: {{time}}, {{date}}, {{task}}, {{file}}, {{tags}}, {{priority}}, {{status}}, {{duration}}. Use {{#time}}...{{/time}} for conditional blocks. Leave blank for the default format.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Name and reusable Task Manager query text.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Note to append archived tasks to (e.g. Archive.md). Created if absent.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Note to append collected tasks to (e.g. Completed.md). Created if absent.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Number of typed characters required before filtered suggestions appear. Use 0 to show generic suggestions immediately.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Number of work blocks before taking a long break.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "OAuth and dry-run fields stay hidden unless you need them.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "One board per line: id | name | groupBy | query | columns comma-list | background. groupBy: status, priority, tag, project, assignee, custom:field",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Optional board background color, token, or CSS value.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Optional custom field used by custom grouping.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Optional exact filename format, supporting YYYY, MM, DD/dd, and YYYY-[W]ww for weekly notes.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Optional hex color override for this priority.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Optional query fragment used as the saved filter root.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Optional Tasks query instructions prepended to every task query block. Use \"ignore global query\" inside a block to opt out.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Optional text that must be present for a checklist item to be treated as a task, such as #task. Matching is case-insensitive. When the global filter is a tag (starts with #), nested sub-tags of that tag (e.g. #task/work) are stripped from the task and cannot be used independently. Leave blank to track all checklist items.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Persist a monotonic completion count for recurring tasks for analytics and recovery. The `for N times` limit works independently.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Preferred fenced code block language for Task Manager queries. Reload the plugin after changing this.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Prefix each log entry with the local completion time, for example “14:32 - Finish report”.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Query used to populate the board.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Refresh shared presets from the current table filter and Kanban board settings.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Render a live progress indicator (e.g. 2/5 ✓) after parent task lines in the editor, showing how many subtasks are complete.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Render priority values with colored pill backgrounds where supported.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Render subtasks indented under parent rows in table view. Saved filters can override this state.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Required by every enabled external URI action. Include it as the secret parameter and treat the URI as sensitive.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Set daily task capacity in minutes (e.g., 480 for 8 hours). 0 = disabled. Used for capacity warnings and weekly summary.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Show achievement badges and total points in the Stats query view.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Show brief confirmation toasts after actions like completing, cancelling, or bulk-editing tasks. Off by default since the result is already visible in the view. (Errors are always shown.)",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Show compact GitHub-style activity heatmaps on recurring tasks in rich list, table, and Kanban views.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Show faint 📅 ⏳ 🔼 🔁 👤 icons at the end of task lines on hover. Click an icon to add that attribute via a quick-pick menu — a more visual alternative to slash commands.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Show query result counts at the top or bottom of results.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Show status icons in Task Manager query rows where supported.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Show task metadata suggestions while editing task lines.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Show this optional field in the Create/Edit task modal. Hidden fields keep existing values when editing tasks.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Shows a 📌 Pinned tab in the task sidebar panel for active pinned tasks.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Shows a Habits tab in the task sidebar panel.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Size each dashboard card to its content and let columns compact automatically, so empty cards shrink and busy cards get the space. Turn off to set card heights manually by dragging.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Swipe right on a task row to mark it done; swipe left to open the status menu.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Tag prefix that defines a goal for the Goals & objectives widget. “goal” matches #goal/<name>.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Tag prefix that defines an area for the Areas of responsibility widget. “area” matches #area/<name>.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Target number of tasks to complete per day, shown by the Daily goal dashboard widget.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Template for the daily stats summary. Variable: {{total}} = total tasks completed today.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Text search used by the saved filter.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Toggle hierarchy mode in the saved filter.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Type @ on a task line to assign the task to someone. Inserts 👤 @name into the task.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Type / on a task line to get a categorised picker for due date, priority, recurrence, etc. without typing emojis.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Type a task as plain English starting with the prefix below, then press Enter to auto-convert it to a formatted task.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Use OS-level browser notifications for reminders instead of Obsidian in-app notices. Requires notification permission.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Vault path for the sync conflict report note. Conflicts detected during sync are appended here.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Visual treatment for the dashboard view. Native blends with your theme; Command center adds accents and data viz; Minimal is calm and typography-forward.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When a recurring task also has a due or start date, remove the scheduled date from new occurrences.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When a recurring task is marked as cancelled, also create its next occurrence. Disable to only advance recurrence when a task is marked done.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When a task is modified in both Obsidian and an external service between syncs, which version wins?",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When all direct child tasks are done or cancelled, automatically mark the parent task done.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When completing a recurring task whose next computed occurrence falls in the past, skip forward until the next date is in the future. Only applies to fixed-interval rules; 'when done' rules are unaffected.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When enabled, YAML frontmatter properties prefixed with the configured prefix (e.g. task_due, task_priority) set default values for all tasks in that file.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When Task Manager writes a date to a task line (e.g. done date), wrap it in [[…]] so it links to the matching daily note.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When Task Manager writes a done, created, or cancelled date, also append the current HH:MM time (e.g. ✅ 2026-05-26 14:32). Matches upstream Tasks issue #3306.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Where to append tasks captured via the Quick capture command. Leave blank to use today’s daily note.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Where to insert future recurring instances relative to the completed task.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Which date field the postpone button (⏩) acts on. 'Auto' picks due → scheduled → start (first populated field).",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "YAML frontmatter field to identify task-note files (e.g., \"task: true\" or just \"task\"). Leave blank to disable frontmatter-based detection.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Active board",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Add preset",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Add saved query",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Add state",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Additional filename date format",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Advance recurrence when cancelling",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Advanced fields",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Append daily statistics summary",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Archive file path",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Archive heading",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Area tag prefix",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Auto-complete parent tasks",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Auto-fit card heights",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Auto-generate task ID",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Auto-suggest maximum suggestions",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Auto-suggest minimum match length",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Background",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Board definitions",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Collect file path",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Collect heading",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Columns",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Conflict direction",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Conflict report note path",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Custom field key",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Custom table columns",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Daily capacity (minutes)",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Daily focus capacity (minutes)",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Daily goal",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Daily plan heading",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Dashboard density",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Dashboard style",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Date display format",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Default description",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Default task sort",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable @ assignee trigger",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable / slash commands",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable advanced query DSL",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable auto-suggest",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable external URI actions",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable file-scoped task defaults",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable function expressions in queries",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable gamification",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable habit tracking",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable inline NL conversion",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable reminder notifications",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable swipe gestures",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "External URI shared secret",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "File defaults property prefix",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Folders with default Scheduled dates",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Global filter",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Global query",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Goal tag prefix",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Group by",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Inbox note path",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Include completion time",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Include source note link",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Log actual time from Pomodoro",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Log entry template",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Log section heading",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Log time format",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Long break (minutes)",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Long break after N work blocks",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Name",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "NL task prefix",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "No presets yet",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "On completion",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Postpone button target field",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Priority",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Projected future occurrences",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Provide access keys in dialogs",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Query",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Query code block name",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Query root",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Rebuild presets from current legacy views",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Record time-of-day on lifecycle dates",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Recurrence",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Recurring future occurrences",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Recurring task heatmaps",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Recurring task insertion location",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Register upstream tasks code block",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Reminder check interval (minutes)",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Remove global filter from description",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Remove scheduled date on recurrence",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Saved table filters",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Search",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Set cancelled date on cancelled tasks",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Set created date on new tasks",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Set done date on completed tasks",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Short break (minutes)",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Show hierarchy",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Show hierarchy by default",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Show inline subtask progress bars",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Show pinned task tab",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Show priority pills",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Show status icons",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Show task action notifications",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Skip past occurrences on recurrence",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Summary template",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Tabbed settings layout",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Tags",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Task count location",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Task font size",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Task line attribute toolbar",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Task metadata format",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Task note folder",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Task note folders",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Task note frontmatter marker",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Task row density",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Track recurrence count",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Use filename as Scheduled date for undated tasks",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Use system notifications",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Visible columns",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Visible table columns",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Work interval (minutes)",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Write dates as wiki links",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "- [ ]",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "- {{time}} {{task}} {{#file}}| {{file}}{{/file}}",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "!!",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "#1f2937",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "#project #area",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "#task",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "> ✅ {{total}} tasks completed",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "🔷",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "0",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "1",
+        "count": 2
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "15",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "20",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "25",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "4",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "480",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "5",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Archive.md",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Archived Tasks",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "area",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "client:Client:text::#77aaff:false area:Area:list:Home|#77aaff,Work|#ffaa77::false",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Collected Tasks",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Completed.md",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Daily Plan",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "daily, weekly",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "days",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "default | Status Board | status | not done | | projects | Projects | project | not done | | #101820",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "every week",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "frontmatter key",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "goal",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "HH:mm",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Inbox.md",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "key",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Label",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Label, e.g. 2 days",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "months",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Name",
+        "count": 3
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Next, e.g. - [x]",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "not done",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "not done sort by smart limit 20",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "options",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "path does not include Templates",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Preset id",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Preset name",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "project",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Query",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Search",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "status, due, priority",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "status, tags, priority, due, file",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Sync Conflicts.md",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Task description…",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "task_",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "task-list",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "task: true",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Tasks, Projects",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Tasks/",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Templates, Archive",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Todo, Doing, Done",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "value",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "weeks",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "YYYY-[W]ww",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "YYYY-MM-DD",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "- 14:30 Complete project documentation | [[Project]]",
+        "count": 2
+      },
+      {
+        "context": "setTooltip",
+        "text": "Clear override",
+        "count": 1
+      },
+      {
+        "context": "setTooltip",
+        "text": "Move preset down",
+        "count": 1
+      },
+      {
+        "context": "setTooltip",
+        "text": "Move preset up",
+        "count": 1
+      }
+    ],
+    "src/settings/advanced-section.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Interactive Planning Board",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "MCP integration",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Missed reminder log",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Mutation Log (Automation Safety)",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Organize tasks by time-scoped tabs with drag-to-schedule, parent-child nesting, and estimate totals.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Record all task modifications from MCP, CLI, UI, and workflows for automation safety, auditing, and recovery.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "The embedded Node.js HTTP server has been removed from the mobile-safe plugin build. MCP is provided as a separate desktop companion so the core plugin can remain available on phones and tablets. Existing embedded-server settings are retained only for migration compatibility and are not started by this plugin.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Allow dragging tasks between time slots to reschedule them.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Append-only log of all task changes. Useful for auditing and recovery.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Display planning board as a tab in the sidebar views.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Number of drag operations to keep in the undo stack (1-100, default 10).",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Number of entries to keep in the active log before rotating to a backup file (default 10000).",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Path to the mutation log file (JSONL format, relative to vault root).",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Show the interactive planning board view with Today/Week/Month/Completed/Unscheduled tabs.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable drag-to-schedule",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable mutation log",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable planning board",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Log file path",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Log missed reminders to daily note",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Max entries before rotation",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Show in sidebar",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Undo stack size",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": ".mutation-log.jsonl",
+        "count": 1
+      }
+    ],
+    "src/settings/apple-reminders-section.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Apple Reminders sync ⚠️ Experimental",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Import Apple Reminders through an Apple Shortcut that copies the documented JSON payload, then run the clipboard import command. Native EventKit writeback and an HTTP/MCP import listener are not bundled.",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "🔗 Test",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Activate Apple Reminders integration.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Allow the explicit “Import Apple Reminders JSON from clipboard” command to validate and write Shortcut payloads. No HTTP/MCP listener is started. Off by default; see docs/apple-reminders-webhook.md.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Name of the Apple Reminders list to sync from. Leave blank to import from all lists.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Optional secret that clipboard payload JSON must include. This validates the producer but does not encrypt clipboard contents.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Vault note where imported Apple Reminders are written as tasks.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Verify Apple Reminders integration",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When enabled, clipboard payloads are validated but not written to the vault inbox. Use this before the first real import.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Dry-run mode",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable Apple Reminders sync",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable clipboard JSON import",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Payload shared secret",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Reminders inbox note",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Reminders list name",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Test Connection",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "optional shared secret",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Reminders",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Reminders Inbox.md",
+        "count": 1
+      }
+    ],
+    "src/settings/confirm-removal.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Cancel",
+        "count": 1
+      }
+    ],
+    "src/settings/todoist-section.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Optional two-way sync with Todoist. Tasks tagged #todoist are pushed to the configured project; imported tasks land in the inbox file.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Todoist sync",
+        "count": 1
+      },
+      {
+        "context": "setButtonText",
+        "text": "🔗 Test",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Activate the Todoist integration. Use the 'Sync with Todoist' command to run a sync.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Preview v2 Todoist sync operations without writing to Todoist or importing remote tasks.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Project ID to push #todoist-tagged vault tasks into. Leave blank to use the Todoist inbox.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Vault note where imported Todoist tasks are written.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Verify Todoist API configuration",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Your Todoist personal API token (found in Todoist Settings → Integrations → Developer).",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable Todoist sync",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Test Connection",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Todoist API key",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Todoist dry run",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Todoist inbox note path",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Todoist project ID",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "2345678901",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Todoist Inbox.md",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "count": 1
+      }
+    ],
+    "src/settings/workflow-section.ts": [
+      {
+        "context": "createEl:placeholder",
+        "text": "Task description ({{prev}} = source task)",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "+ Add step",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "+ Add workflow",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "×",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Define workflows: when a task tagged with the trigger tag is marked done, the plugin automatically inserts the next step task beneath it.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Workflow automation",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "When enabled, completing a task with a workflow trigger tag auto-creates the next step task.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Enable workflow automation",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Trigger tag (without #)",
+        "count": 1
+      },
+      {
+        "context": "setPlaceholder",
+        "text": "Workflow name",
+        "count": 1
+      }
+    ],
+    "src/sidebar-view.ts": [
+      {
+        "context": "createEl:text",
+        "text": "⏩",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✎",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✓",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✕",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "↻",
+        "count": 1
+      }
+    ],
+    "src/sync-conflict-review.ts": [
+      {
+        "context": "createEl:text",
+        "text": "No failed or conflicted sync operations are currently retained in the retry queue.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Sync conflict report",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Baseline, local, remote, and version evidence is retained. Run sync again for a fresh remote read; no conflict choice replays an old payload.",
+        "count": 1
+      },
+      {
+        "context": "setDesc",
+        "text": "Requeues non-reconciliation transport failures only. Conflicts and stale reconciliation payloads are never replayed.",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Conflict choices are read-only",
+        "count": 1
+      },
+      {
+        "context": "setName",
+        "text": "Retry failed operations",
+        "count": 1
+      }
+    ],
+    "src/table-renderer.ts": [
+      {
+        "context": "createEl:placeholder",
+        "text": "Search table...",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "+",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "+ tag",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "✕",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "🔖 Save filter",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Active filters",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Clear all",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Columns",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Export",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "No saved table filters",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Saved:",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Popup blocked. Saved printable HTML instead.",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Export format",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Search table tasks",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Visible table columns",
+        "count": 1
+      },
+      {
+        "context": "setAttr:placeholder",
+        "text": "Add value",
+        "count": 1
+      },
+      {
+        "context": "setAttr:placeholder",
+        "text": "field name (for example: owner)",
+        "count": 1
+      },
+      {
+        "context": "setAttr:placeholder",
+        "text": "field value (empty clears the field)",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Save the current table filters",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Select or clear all visible rows",
+        "count": 1
+      }
+    ],
+    "src/task-attribute-picker.ts": [
+      {
+        "context": "setPlaceholder",
+        "text": "Pick an attribute to add…",
+        "count": 1
+      }
+    ],
+    "src/task-line-toolbar.ts": [
+      {
+        "context": "assign:placeholder",
+        "text": "e.g. 3pm, 15:30",
+        "count": 1
+      },
+      {
+        "context": "assign:placeholder",
+        "text": "Type naturally — e.g. \"scheduled next week, start wed @ noon, due fri 2pm\"",
+        "count": 1
+      },
+      {
+        "context": "assign:textContent",
+        "text": "…",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Pick a section to edit — changes apply to the task instantly.",
+        "count": 1
+      },
+      {
+        "context": "createDiv:text",
+        "text": "Set due, scheduled, and start dates with optional times.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "▶",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "◀",
+        "count": 2
+      },
+      {
+        "context": "createEl:text",
+        "text": "Apply",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Cancel",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Clear date",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Clear dates",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Clear follow-up",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Open scheduler",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Parse",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Schedule task",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Task settings",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "·",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "×",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "☐",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "clear",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "No date",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "No dates set",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Preview",
+        "count": 1
+      },
+      {
+        "context": "createSpan:text",
+        "text": "Time",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Clear this date",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Has a value",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Jump to current month",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Natural-language date instruction",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Time (optional) — accepts 3pm, 3:30pm, 15:30, noon",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "Unrecognized time",
+        "count": 1
+      }
+    ],
+    "src/timeline-renderer.ts": [
+      {
+        "context": "createEl:text",
+        "text": "⏰ Daily Timeline",
+        "count": 1
+      },
+      {
+        "context": "setText",
+        "text": "The task is already at the edge of the timeline.",
+        "count": 1
+      }
+    ],
+    "src/visual-views.ts": [
+      {
+        "context": "createEl:text",
+        "text": "Global unfinished tasks, sorted by smart priority.",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Refresh",
+        "count": 1
+      }
+    ],
+    "src/voice-capture.ts": [
+      {
+        "context": "createEl:text",
+        "text": "✅ Insert Task",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🎤",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "🎤 Voice Capture",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Cancel",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Parsed task preview",
+        "count": 1
+      },
+      {
+        "context": "createEl:text",
+        "text": "Transcribed text",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "No task text to insert",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Voice capture is not supported in this browser/environment.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Voice capture: microphone access is not available in this environment.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Voice capture: no audio was captured. Please try again.",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Voice capture: transcribing…",
+        "count": 1
+      },
+      {
+        "context": "Notice",
+        "text": "Voice capture: Web Speech API not available and no Whisper API key configured in settings.",
+        "count": 1
+      },
+      {
+        "context": "setAttr:aria-label",
+        "text": "Start voice capture",
+        "count": 1
+      },
+      {
+        "context": "setAttr:title",
+        "text": "Voice capture task",
+        "count": 1
+      }
+    ]
+  },
+  "policy": "Heuristic inventory of direct user-facing string literals. New file/context/text tuples or count increases fail; use t() and update locale catalogues instead."
+}

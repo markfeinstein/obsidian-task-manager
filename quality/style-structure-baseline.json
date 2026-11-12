@@ -1,0 +1,5366 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    "00-foundation.css",
+    "40-diagnostics-planning.css",
+    "80-dashboard.css"
+  ],
+  "duplicateDeclarations": 163,
+  "crossFileSelectors": 13,
+  "selectorCounts": {
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) :focus-visible": {
+      "40-diagnostics-planning.css": 1
+    },
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) :is(button, input, textarea, select, a)": {
+      "40-diagnostics-planning.css": 1
+    },
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) :is(button, input[type=\"button\"], input[type=\"submit\"], input[type=\"reset\"], [role=\"button\"], [role=\"switch\"])": {
+      "40-diagnostics-planning.css": 1
+    },
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) :is(input:not([type=\"checkbox\"]):not([type=\"radio\"]), textarea)": {
+      "40-diagnostics-planning.css": 1
+    },
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) :is(input[type=\"checkbox\"], input[type=\"radio\"])": {
+      "40-diagnostics-planning.css": 1
+    },
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) button": {
+      "40-diagnostics-planning.css": 1
+    },
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) button:focus-visible": {
+      "40-diagnostics-planning.css": 1
+    },
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]), :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) *": {
+      "40-diagnostics-planning.css": 1
+    },
+    ":is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]):focus-visible, :is(.task-manager-query, .task-manager-panel, .tm-dash, [class*=\"task-manager-\"], [class*=\"tm-\"]) :focus-visible": {
+      "40-diagnostics-planning.css": 1
+    },
+    ":root": {
+      "00-foundation.css": 2
+    },
+    ":where([data-task-manager-locale][dir=\"rtl\"])": {
+      "00-foundation.css": 1
+    },
+    ":where([data-task-manager-locale][dir=\"rtl\"]) :is(.task-manager-panel-due, .task-manager-agenda-time)": {
+      "00-foundation.css": 1
+    },
+    ":where([data-task-manager-locale][dir=\"rtl\"]) :is(input, textarea, select, .tm-ac-item)": {
+      "00-foundation.css": 1
+    },
+    ".ai-query-input": {
+      "00-foundation.css": 1
+    },
+    ".cm-line:hover .task-line-toolbar": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .task-date-picker-cal-day, .is-mobile .task-date-picker-quick-btn": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .task-dates-apply, .is-mobile .task-dates-cancel": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .task-dates-modal": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .task-dates-tab": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .task-dates-time-input": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .task-line-toolbar": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .task-line-toolbar-btn": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .tm-dash-card-actions": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .tm-dash-icon-btn": {
+      "80-dashboard.css": 1
+    },
+    ".is-mobile .tm-dash-scope-btn": {
+      "80-dashboard.css": 1
+    },
+    ".modal.task-date-picker-modal-shell": {
+      "80-dashboard.css": 1
+    },
+    ".modal.task-date-picker-modal-shell .modal-content, .modal.task-dates-modal-shell .modal-content": {
+      "80-dashboard.css": 2
+    },
+    ".modal.task-date-picker-modal-shell, .modal.task-dates-modal-shell": {
+      "80-dashboard.css": 1
+    },
+    ".modal.task-dates-modal-shell": {
+      "80-dashboard.css": 1
+    },
+    ".modal.task-dates-modal-shell, .modal.task-date-picker-modal-shell": {
+      "80-dashboard.css": 1
+    },
+    ".modal.task-settings-pane-shell": {
+      "80-dashboard.css": 2
+    },
+    ".modal.task-settings-pane-shell .modal-content": {
+      "80-dashboard.css": 2
+    },
+    ".planning-board-card": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-card-header": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-card-info": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-card-title": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-card:active": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-card:hover": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-cards": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".planning-board-container": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-content": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".planning-board-due-date": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-empty-state": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-estimate": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-estimate-total": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-expand-btn": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-expand-btn, .planning-board-expand-placeholder": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-expand-btn:hover": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-expand-placeholder": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-priority": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-priority.priority-high": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-priority.priority-highest": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-priority.priority-low": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-priority.priority-lowest": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-priority.priority-medium": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-tab-btn": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".planning-board-tab-btn:hover": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-tab-btn.is-active": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-tab-content": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".planning-board-tabs": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".planning-board-undo": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".pomodoro-bar-bg": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".pomodoro-bar-fill": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".pomodoro-btns": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".pomodoro-timer": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-date-picker-cal-day": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-cal-day:hover": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-cal-day.is-selected": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-cal-day.is-selected, .task-date-picker-cal-day.is-selected:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-cal-day.is-selected::after": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-cal-day.is-today": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-cal-day.is-today::after": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-cal-empty": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-cal-grid": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-cal-header": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-cal-label": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-cal-label.is-weekend": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-cal-month": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-cal-month:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-calendar": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-modal": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-modal, .task-dates-modal": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-modal:focus, .task-dates-modal:focus": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-nav": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-nav:hover": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-quick": {
+      "80-dashboard.css": 3
+    },
+    ".task-date-picker-quick-btn": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-quick-btn:hover": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-quick-btn.is-selected": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-quick-btn.is-selected .task-date-picker-quick-sub": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-quick-nodate": {
+      "80-dashboard.css": 2
+    },
+    ".task-date-picker-quick-sub": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-quick-sub, .task-date-picker-quick-btn.is-selected .task-date-picker-quick-sub": {
+      "80-dashboard.css": 1
+    },
+    ".task-date-picker-title": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-apply": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-apply, .task-dates-cancel": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-apply:not(.is-disabled)": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-apply:not(.is-disabled):hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-apply.is-disabled": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-cancel": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-clear": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-clear:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-clear.is-disabled": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-clear.is-disabled:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-content": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-content .task-date-picker-cal-grid": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-content .task-date-picker-quick": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-footer": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-footer-actions": {
+      "80-dashboard.css": 3
+    },
+    ".task-dates-header": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-modal": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-nl-btn": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-nl-btn:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-nl-feedback": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-nl-feedback.is-error": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-nl-feedback[style*=\"display: none\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-nl-input": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-nl-input:focus": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-nl-row": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-subtitle": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-summary": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-summary-emoji": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-summary-empty": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-summary-item": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-summary-sep": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-tab": {
+      "80-dashboard.css": 4
+    },
+    ".task-dates-tab-bar": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-tab-date": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-tab:hover": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-tab.is-active": {
+      "80-dashboard.css": 3
+    },
+    ".task-dates-tab.is-active .task-dates-tab-date": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-tab.is-active:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-time-hint": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-time-hint.is-error": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-time-input": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-time-input.is-error": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-time-label": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-time-row": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-time-row, .task-dates-footer": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-time-wrap": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-title, .task-date-picker-title": {
+      "80-dashboard.css": 1
+    },
+    ".task-dates-validation": {
+      "80-dashboard.css": 2
+    },
+    ".task-dates-validation-msg": {
+      "80-dashboard.css": 1
+    },
+    ".task-graph circle:focus-visible, .task-graph text:focus-visible": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-line-toolbar": {
+      "80-dashboard.css": 1
+    },
+    ".task-line-toolbar-btn": {
+      "80-dashboard.css": 1
+    },
+    ".task-line-toolbar-btn:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-line-toolbar-settings-btn": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-achievement-badge": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievement-badge:hover": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievement-badge.task-manager-achievement-locked": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievement-emoji": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievement-name": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievements": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievements-badge": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievements-count": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievements-grid": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".task-manager-achievements-header": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievements-level": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievements-level, .task-manager-achievements-xp, .task-manager-achievements-count": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-achievements-xp": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-advanced-find-checkbox-label": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-advanced-find-control label, .task-manager-advanced-find-label": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-advanced-find-control, .task-manager-advanced-find-statuses": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-advanced-find-controls, .task-manager-advanced-find-results": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-advanced-find-count": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-advanced-find-input": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-advanced-find-layout": {
+      "80-dashboard.css": 2
+    },
+    ".task-manager-advanced-find-row": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-advanced-find-row:hover, .task-manager-advanced-find-row:focus": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-advanced-find-source, .task-manager-advanced-find-more": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-agenda-bucket": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-bucket-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-date": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-empty": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-item": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-item:last-child": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-list": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-priority": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-text": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-text:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-agenda-time": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-auto-reveal-indicator": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-bulk-bar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-bulk-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-bulk-btn-clear": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-bulk-count": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-cal-future": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar :is(.task-manager-calendar-agenda-text, .task-manager-calendar-unscheduled-text, .task-manager-calendar-list-text)": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-action": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-action--nav": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-action:hover, .task-manager-calendar-agenda-action:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-date": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-day + .task-manager-calendar-agenda-day": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-empty": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-header": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-header-title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-nav": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-row, .task-manager-calendar-unscheduled-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-row:hover, .task-manager-calendar-unscheduled-row:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-summary": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-agenda-view, .task-manager-calendar-unscheduled-panel": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-checkbox-hit": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-calendar-chip": {
+      "00-foundation.css": 1,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-calendar-chip-more": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-chip:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-chip:hover, .task-manager-calendar-chip:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-chip.is-done": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-chip[draggable=\"true\"]": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-day": {
+      "00-foundation.css": 1,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-calendar-day-blank": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-day-header": {
+      "00-foundation.css": 1,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-calendar-day-num": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-day-num-clickable": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-day-num-clickable:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-day.is-today": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-day.is-today .task-manager-calendar-day-num": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-dragging": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-drop-target": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-grid": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-grid-multiday": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-grid-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-grid-week": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-grid, .task-manager-calendar-grid-week": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-calendar-ics-event": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-calendar-mode-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-mode-btn.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-month-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-multiday-column": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-nav": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-nav-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-nav-btn:hover, .task-manager-calendar-nav-btn:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-nav, .task-manager-panel-header, .task-manager-panel-search-row": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-calendar-nav, .task-manager-panel-header, .task-manager-query-toolbar, .task-manager-kanban-board-toolbar": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-calendar-popover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-popover-add": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-popover-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-popover-row:hover, .task-manager-calendar-popover-row:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-popover-title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-today-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-today-btn:hover, .task-manager-calendar-today-btn:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-toolbar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-undated": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-undated-heading": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-unscheduled-header": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-unscheduled-search": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-view-toggle": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-calendar-week-daynum": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-date-picker-controls": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-date-picker-input": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-date-quick": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-date-quicks": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-delete-confirm h3": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-delete-confirm-buttons": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-delete-confirm-note": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-delete-confirm-preview": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-density-comfortable": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-density-compact": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-density-spacious": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-dep-link": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-dep-link:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-desc-input": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-drag-handle": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-drag-handle:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-edit-query-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-edit-query-btn:hover, .task-manager-edit-query-btn:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-arrow": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-bar": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-gantt-bar-duration": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-bar-priority": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-bar:hover": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-gantt-bar.is-done": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-gantt-bar.is-overdue": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-day-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-deps": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-fit-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-fit-btn:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-future .task-manager-gantt-bar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-future .task-manager-gantt-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-header": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-label-col": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-label:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-nav-btn, .task-manager-gantt-today-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-nav-btn:hover, .task-manager-gantt-today-btn:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-point": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-range-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-reschedule-input": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-row:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-rows": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-timeline-col": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-timeline-header": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-today-marker": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-toolbar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-undated-heading": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-gantt-zoom": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-group-separator": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-heatmap": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-heatmap-container": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".task-manager-heatmap-day": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".task-manager-heatmap-day:hover": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-heatmap-day.level-0": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-heatmap-day.level-1": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".task-manager-heatmap-day.level-2": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".task-manager-heatmap-day.level-3": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".task-manager-heatmap-day.level-4": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-heatmap-week": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-id-warning": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-inline-extras": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-add-btn": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-kanban-add-btn:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board": {
+      "00-foundation.css": 1,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-kanban-board-action": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-cycle, .task-manager-kanban-board-action": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-cycle:hover, .task-manager-kanban-board-cycle:focus-visible, .task-manager-kanban-board-action:hover, .task-manager-kanban-board-action:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-label, .task-manager-kanban-board-mode": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-mode": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-select": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-switcher": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-switcher, .task-manager-kanban-board-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-themed": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-board-toolbar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card": {
+      "00-foundation.css": 3
+    },
+    ".task-manager-kanban-card-action": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-action:hover, .task-manager-kanban-card-action:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-actions": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-kanban-card-desc": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-dragging": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-kanban-card-due, .task-manager-kanban-card-priority, .task-manager-kanban-card-file": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-due.is-overdue": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-kanban-card-file": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-footer": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-menu button": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-menu button:hover, .task-manager-kanban-card-menu button:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-menu-section": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-meta": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-tag": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-tags": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card-top": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card:hover .task-manager-kanban-card-actions, .task-manager-kanban-card:focus-within .task-manager-kanban-card-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card:hover .task-manager-kanban-card-actions, .task-manager-kanban-card:focus-within .task-manager-kanban-card-actions, .task-manager-kanban-card.is-actions-visible .task-manager-kanban-card-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card.task-priority-high": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card.task-priority-highest": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card.task-priority-highest, .task-manager-kanban-card.task-priority-high, .task-manager-kanban-card.task-priority-medium, .task-manager-kanban-card.task-priority-normal, .task-manager-kanban-card.task-priority-low, .task-manager-kanban-card.task-priority-lowest": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card.task-priority-low": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card.task-priority-lowest": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card.task-priority-medium": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card.task-priority-normal": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-card[draggable=\"true\"]:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-checkbox-hit": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-kanban-col-count": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-col-icon": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-column": {
+      "00-foundation.css": 2,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-kanban-column-dragover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-empty": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-header": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-mode-note": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-pointer-ghost": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-progress": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-quick-add": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-quick-add-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-wip": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kanban-wip.is-over-limit": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-kb-hint": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-kb-hint::after": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-kb-hint::before": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-modal .modal-button-container": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-modal .modal-button-container button": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-modal .modal-button-container button:first-child": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-modal .modal-button-container button:first-child:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-modal .modal-button-container button:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-modal-day-hint": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-modal-description": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-modal-status, .task-manager-modal-priority": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-oc-keep": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-onboarding": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-onboarding-action": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-onboarding-dismissal": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-onboarding-navigation": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-onboarding-navigation, .task-manager-onboarding-dismissal": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-onboarding-panel": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-onboarding-status": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel :is(.task-manager-panel-desc-button, .task-manager-panel-backlink, .task-manager-agenda-text)": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-action-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-action-btn, .task-manager-panel-checkbox-hit": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-action-btn:active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-action-btn:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-actions": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-panel-backlink": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-backlink:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-checkbox-hit": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-count": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-desc": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-desc-button": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-due": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-due.is-overdue": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-header": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-panel-header-right": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-list": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-loading, .task-manager-panel-empty": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-meta": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-page-status": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-panel-pager": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-panel-priority": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-refresh": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-refresh:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-row > :not(.task-manager-panel-swipe-indicator)": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-row-body": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-row:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-row:hover .task-manager-panel-actions, .task-manager-panel-row:focus-within .task-manager-panel-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-row.is-swipe-preview": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-row.is-swipe-preview .task-manager-panel-swipe-indicator": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-row.is-swipe-preview[data-swipe-action=\"defer\"]": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-search": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-search-clear": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-search-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-swipe-indicator": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-tab": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-tab.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-tabs": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-view-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-view-btn.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-panel-view-toggle": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-pattern-buttons": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-priority-pill.task-priority-high, .task-manager-table-col-priority.task-priority-high": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-priority-pill.task-priority-highest, .task-manager-table-col-priority.task-priority-highest": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-priority-pill.task-priority-low, .task-manager-table-col-priority.task-priority-low": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-priority-pill.task-priority-lowest, .task-manager-table-col-priority.task-priority-lowest": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-priority-pill.task-priority-medium, .task-manager-table-col-priority.task-priority-medium": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-priority-pill.task-priority-normal, .task-manager-table-col-priority.task-priority-normal": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-progress-badge": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query": {
+      "00-foundation.css": 1,
+      "80-dashboard.css": 1
+    },
+    ".task-manager-query-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-body": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-builder .query-builder-clause": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-builder .query-builder-clause > span": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item:hover, .task-manager-query-checklist .task-manager-checklist-item:focus-within": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item.is-checked .task-manager-query-marker": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item.is-checked .task-manager-query-marker::after": {
+      "00-foundation.css": 1,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item.task-priority-high .task-manager-query-marker": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item.task-priority-highest .task-manager-query-marker": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item.task-priority-low .task-manager-query-marker": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item.task-priority-lowest .task-manager-query-marker": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item.task-priority-medium .task-manager-query-marker": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-item[draggable=\"true\"]": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-checklist-list": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-query-body": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-query-headline": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-query-marker": {
+      "00-foundation.css": 2,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-query-marker-hit": {
+      "00-foundation.css": 1,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-query-marker:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-query-meta": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-query-metadata.task-id": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-checklist .task-manager-query-text .tag, .task-manager-query-checklist .task-manager-query-metadata.task-manager-priority-pill, .task-manager-query-checklist .task-manager-subtask-progress, .task-manager-query-checklist .task-manager-comment-badge, .task-manager-query-checklist .task-manager-query-metadata.task-dependsOn, .task-manager-query-checklist .task-manager-query-metadata.task-scheduled, .task-manager-query-checklist .task-manager-query-metadata.task-start, .task-manager-query-checklist .task-manager-query-metadata.task-created, .task-manager-query-checklist .task-manager-query-metadata.task-done, .task-manager-query-checklist .task-manager-query-metadata.task-cancelled, .task-manager-query-checklist .task-manager-query-metadata.task-reminder, .task-manager-query-checklist .task-manager-query-metadata.task-effort, .task-manager-query-checklist .task-manager-query-metadata.task-actual, .task-manager-query-checklist .task-manager-query-metadata.task-recurring, .task-manager-query-checklist .task-manager-query-metadata.task-onCompletion, .task-manager-query-checklist .task-manager-query-metadata.task-block-link": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-copy": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-count, .task-manager-query-explain, .task-manager-query-urgency": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-defer, .task-manager-query-edit, .task-manager-query-timer": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-defer, .task-manager-query-edit, .task-manager-query-timer, .task-manager-kanban-card, .task-manager-kanban-column, .task-manager-kanban-mode-note": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-defer, .task-manager-query-edit, .task-manager-query-timer, .task-manager-query-list input[type=\"checkbox\"], .task-manager-kanban-card, .task-manager-kanban-column, .task-manager-panel-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-defer, .task-manager-query-edit, .task-manager-query-timer, .task-manager-query-list input[type=\"checkbox\"], .task-manager-select-all-cb": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-defer:hover, .task-manager-query-edit:hover, .task-manager-query-timer:hover, .task-manager-query-defer:focus-visible, .task-manager-query-edit:focus-visible, .task-manager-query-timer:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-empty, .task-manager-query-loading": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-error": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-explain": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-explain pre, .task-manager-query-explain code": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-export-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-export-btn:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-clear": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-clear:hover, .task-manager-query-filter-clear:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-panel": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-panel.is-collapsed": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-toggle": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-toggle, .task-manager-query-filter-clear": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-toggle:hover, .task-manager-query-filter-toggle:focus-visible, .task-manager-query-filter-toggle.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-toggle.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-toggle.is-active, .task-manager-query-filter-toggle:hover, .task-manager-query-filter-toggle:focus-visible, .task-manager-query-filter-clear:hover, .task-manager-query-filter-clear:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-filter-wrap": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-query-group-heading": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-headline": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-headline .tag": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item": {
+      "00-foundation.css": 2,
+      "40-diagnostics-planning.css": 4,
+      "80-dashboard.css": 1
+    },
+    ".task-manager-query-item--projected": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item--projected .task-manager-query-marker::before": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item-hidden": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item-tag-hidden": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item:focus-within": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-query-item:hover .task-manager-drag-handle, .task-manager-query-item:focus-within .task-manager-drag-handle": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item:hover .task-manager-query-actions, .task-manager-query-item:focus-within .task-manager-query-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item:hover .task-manager-select-checkbox, .task-manager-select-checkbox:checked, .task-manager-select-checkbox:focus": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item:hover, .task-manager-query-item:focus-within": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item.is-checked": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item.is-checked .task-manager-query-text": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item.task-priority-high": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item.task-priority-highest": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item.task-priority-low": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item.task-priority-lowest": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item.task-priority-medium": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-item[data-focused=\"true\"]": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-query-lint": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-query-lint-error": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-query-lint-error, .task-manager-query-lint-warning, .task-manager-query-lint-suggestion": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-query-lint-suggestion": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-query-lint-warning": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-query-list": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-query-list input[type=\"checkbox\"]": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-marker": {
+      "00-foundation.css": 1,
+      "40-diagnostics-planning.css": 3
+    },
+    ".task-manager-query-marker:disabled": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-marker:focus-visible, .task-manager-query-item:focus-within .task-manager-query-marker": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-query-marker:hover, .task-manager-query-marker:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-meta": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-meta .task-manager-query-urgency": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-meta .tasks-backlink": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-meta .tasks-backlink:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-metadata": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-metadata .task-manager-dep-link": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-metadata .task-manager-dep-link:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-metadata-date": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-metadata-date:hover, .task-manager-query-metadata-date:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-metadata-date[data-task-due^=\"past-\"]": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-metadata-date[data-task-due=\"today\"]": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-metadata.task-dependsOn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-metadata.task-id": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-options-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-options-btn:hover, .task-manager-query-options-btn:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-stats-bar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-stats-chip": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-stats-chip--total": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-summary-bar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-summary-chip": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-summary-chip--active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-summary-chip--overdue, .task-manager-query-stats-chip--overdue": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-summary-chip--total": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-text": {
+      "00-foundation.css": 1,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-query-text .tag, .task-manager-query-meta .tag": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-text .tag:hover, .task-manager-query-meta .tag:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-text p": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-toolbar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-toolbar-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-toolbar-actions, .task-manager-kanban-board-switcher, .task-manager-kanban-board-actions, .task-manager-kanban-board-toolbar > .task-manager-kanban-board-mode, .task-manager-kanban-board-toolbar > .task-manager-kanban-board-select, .task-manager-kanban-board-toolbar > .task-manager-kanban-board-label, .task-manager-calendar-today-btn, .task-manager-calendar-view-toggle, .task-manager-panel-header-right, .task-manager-panel-actions, .task-manager-table-search, .task-manager-table-filter-select, .task-manager-kanban-board-select, .task-manager-query-toolbar-filter, .task-manager-query-filter-panel, .task-manager-calendar-popover, .task-manager-panel-action-btn": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-query-toolbar-controls": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-toolbar-filter": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-toolbar-kanban .task-manager-query-copy, .task-manager-query-toolbar-kanban .task-manager-query-debug-btn, .task-manager-query-toolbar-kanban .task-manager-query-export-btn, .task-manager-query-toolbar-kanban .task-manager-edit-query-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-toolbar, .task-manager-table-toolbar, .task-manager-table-active-filters, .task-manager-table-saved-filters, .task-manager-table-bulk-bar, .task-manager-kanban-board-toolbar, .task-manager-calendar-toolbar, .task-manager-panel-header, .task-manager-panel-search-row": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-query-view-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-view-btn:hover:not(.is-active)": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-view-btn.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-query-view-toggle": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-quick-add-example": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-quick-add-examples": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-recurrence-heatmap": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-recurrence-heatmap-cell": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-recurrence-heatmap-cell.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-recurrence-heatmap-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-recurrence-pattern-button": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-recurrence-patterns": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-recurrence-patterns-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-recurrence-preview": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-recurrence-warning": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-reorder-button": {
+      "80-dashboard.css": 2
+    },
+    ".task-manager-reorder-controls": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-row-focused": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-select-all-cb": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-select-checkbox": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-setting-validation": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings .setting-item-control .task-manager-settings__state-field :is(input, select)": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings .task-manager-settings__state-field :is(.task-manager-settings__raw-input, .task-manager-settings__icon-input)": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__collapsible-section": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__icon-input--default::placeholder": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__note": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__query-row .setting-item-control": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__query-row .setting-item-control > *": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__query-row .setting-item-info": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__query-row input[type='text']": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__query-row textarea.task-manager-settings__query-input": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__remove-button": {
+      "00-foundation.css": 3
+    },
+    ".task-manager-settings__section-chevron": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__section-content": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__section-content--collapsed": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__section-header": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__section-header:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__section-header:hover, .task-manager-settings__section-header:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__section-heading": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__section-title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__state-field": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__state-field-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__state-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__state-row .setting-item-control": {
+      "00-foundation.css": 3
+    },
+    ".task-manager-settings__state-row .setting-item-control > *": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__state-row .setting-item-info": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__state-row--dragging": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__state-row--drop-target": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__state-status": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings__state-type-input": {
+      "00-foundation.css": 2
+    },
+    ".task-manager-settings-info-actions button": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-info-actions button, .task-manager-settings-tab": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-info-actions button:hover, .task-manager-settings-info-actions button:focus-visible, .task-manager-settings-tab:hover, .task-manager-settings-tab:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-info-actions, .task-manager-settings-tabs": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-info-card": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-info-title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-info-version, .task-manager-settings-info-desc": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-search": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-search label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-search-input": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-search-results > p": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-search-status": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-tab": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-settings-tab.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sidebar-progress": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-skip-to-content": {
+      "40-diagnostics-planning.css": 2
+    },
+    ".task-manager-skip-to-content:focus": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-sort-indicator": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sr-only": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-stats": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-bar-count": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-bar-fill": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-bar-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-bar-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-bar-wrap": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-card": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-card.is-overdue": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-chart": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-chart-bar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-chart-bar.is-today": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-section": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-section-title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-streak": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-summary": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-stats-value": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-subtask-progress": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-subtask-progress--complete": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-card": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-card__actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-card__badge": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-card__button": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-card__desc": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-card__desc + .task-manager-sync-card__desc": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-card__title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-card--featured": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-pill": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-pill.is-neutral": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-pill.is-off": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-pill.is-on": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-pill.is-warn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-sync-pills": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table :is([role='columnheader'], [role='gridcell']):focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table th, .task-manager-table td": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-active-filter": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-active-filter--clear": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-active-filters": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-active-filters__label, .task-manager-table-saved-label, .task-manager-table-saved-empty": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-bulk-bar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-bulk-bar[aria-busy='true']": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-bulk-feedback": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-bulk-feedback.is-error": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-col-priority.task-priority-highest, .task-manager-table-col-priority.task-priority-high, .task-manager-table-col-priority.task-priority-medium, .task-manager-table-col-priority.task-priority-normal, .task-manager-table-col-priority.task-priority-low, .task-manager-table-col-priority.task-priority-lowest": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-col-task, .task-manager-table-task-cell": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-column-toggle": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-columns-menu, .task-manager-table-export-menu, .task-manager-kanban-card-menu": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-columns-wrap": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-count, .task-manager-table-saved-label, .task-manager-table-saved-empty": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-custom-field-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-custom-list": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-filter-select": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-actions button": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-chip-label": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-chip-remove": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-chip-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-chip, .task-manager-table-list-editor-suggestion": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-color": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-content": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-empty, .task-manager-table-list-editor-subtitle": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-input": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-input-row": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-selected, .task-manager-table-list-editor-suggestions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-status": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-suggestion": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor-title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-list-editor:hover, .task-manager-table-list-editor:focus-within": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-rich th": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-row-context": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-row:hover .task-manager-table-task-title, .task-manager-table-row:focus-within .task-manager-table-task-title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-row.is-pinned .task-manager-table-task-cell": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-row.is-projected": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-row.is-selected": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-saved-delete": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-saved-filter-wrap": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-saved-filter-wrap:hover .task-manager-table-saved-delete, .task-manager-table-saved-filter-wrap:focus-within .task-manager-table-saved-delete": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-saved-filter.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-saved-filters": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-search": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-sort-button": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-sortable": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-status": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-subtask-badge, .task-manager-table-tag-pill, .task-manager-table-tag-empty, .task-manager-table-tag-add": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-task-title": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-task-wrap": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-toolbar-btn--selection": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-toolbar-btn--selection:hover, .task-manager-table-toolbar-btn--selection:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-toolbar-btn, .task-manager-table-saved-filter, .task-manager-table-saved-delete, .task-manager-table-tag-pill, .task-manager-table-tag-add, .task-manager-table-tag-empty, .task-manager-table-source-btn, .task-manager-table-hierarchy-toggle, .task-manager-table-task-title, .task-manager-table-bulk-btn, .task-manager-table-list-editor-add-btn, .task-manager-table-list-editor-suggestion, .task-manager-table-list-editor-chip-remove": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-toolbar-btn.is-active, .task-manager-table-saved-filter.is-active, .task-manager-table-saved-filter:hover, .task-manager-table-tag-pill:hover, .task-manager-table-list-editor-suggestion:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-toolbar, .task-manager-table-active-filters, .task-manager-table-saved-filters, .task-manager-table-bulk-bar, .task-manager-query-list, .task-manager-calendar-agenda-view, .task-manager-calendar-unscheduled-panel, .task-manager-settings-info-card, .task-manager-sync-card, .task-manager-panel-row, .task-manager-calendar-popover": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-table-toolbar, .task-manager-table-saved-filters, .task-manager-table-bulk-bar": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-table-view": {
+      "00-foundation.css": 1,
+      "40-diagnostics-planning.css": 1
+    },
+    ".task-manager-tag-filter-chip": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-tag-filter-chip:hover, .task-manager-tag-filter-chip:focus-visible": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-tag-filter-chip.is-active": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-tag-filter-strip": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-task-edit-error": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-timeline-block": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-block-cb": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-block-draggable": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-block-dragging": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-block-label": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-block-label, .task-manager-timeline-unscheduled-edit": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-block, .task-manager-timeline-ics-block": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-checkbox-hit": {
+      "80-dashboard.css": 2
+    },
+    ".task-manager-timeline-clock-btn": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-clock-btn-active": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-elapsed": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-grid": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-grid-container": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-hour-label": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-hour-row": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-ics-block": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-timeline-reschedule-input": {
+      "80-dashboard.css": 1
+    },
+    ".task-manager-tooltip": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-tooltip-popup": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-tree-toggle": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-tree-toggle:hover": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-visible-fields-actions": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-visible-fields-error": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-visible-fields-list": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-visible-fields-modal .modal-content": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-visible-fields-modal button, .task-manager-visible-fields-modal input[type='checkbox']": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-weekly-review .weekly-review-btns": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-weekly-review .weekly-review-file": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-weekly-review .weekly-review-item": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-weekly-review .weekly-review-list": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-weekly-review .weekly-review-open-btn": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-weekly-review .weekly-review-progress": {
+      "00-foundation.css": 1
+    },
+    ".task-manager-weekly-review .weekly-review-task-description": {
+      "00-foundation.css": 1
+    },
+    ".task-priority-icon, .task-status-icon": {
+      "00-foundation.css": 1
+    },
+    ".task-settings-actions": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-current": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-current-label": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-current-value": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-current-value.is-empty, .task-settings-date-chip-value.is-empty": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-date-chip": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-date-chip-label": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-date-chip-value": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-date-chip.is-set": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-date-grid": {
+      "80-dashboard.css": 2
+    },
+    ".task-settings-date-grid, .task-settings-option-grid": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-link-btn": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-link-btn:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn.is-selected": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn.is-selected::after": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn[data-level]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn[data-level].is-selected": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn[data-level].is-selected::after": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn[data-level=\"high\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn[data-level=\"highest\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn[data-level=\"low\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn[data-level=\"lowest\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-btn[data-level=\"medium\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-option-grid": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-pane": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-pane-body": {
+      "80-dashboard.css": 2
+    },
+    ".task-settings-pane-content": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-pane-header": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-pane-rail": {
+      "80-dashboard.css": 2
+    },
+    ".task-settings-pane-subtitle": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-pane-title": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-check": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip-icon": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip[data-kind=\"assignee\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip[data-kind=\"tag\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip[data-level]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip[data-level=\"high\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip[data-level=\"highest\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip[data-level=\"low\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip[data-level=\"lowest\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chip[data-level=\"medium\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-chips": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-desc": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-desc.is-empty": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-label": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-preview-line": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-primary-btn": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-primary-btn, .task-settings-secondary-btn, .task-settings-link-btn, .task-settings-option-btn": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-primary-btn:active": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-primary-btn:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-rail-btn": {
+      "80-dashboard.css": 2
+    },
+    ".task-settings-rail-btn:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-rail-btn.is-active": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-rail-btn.is-active .task-settings-rail-dot": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-rail-btn.is-active .task-settings-rail-hint": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-rail-dot": {
+      "80-dashboard.css": 2
+    },
+    ".task-settings-rail-hint": {
+      "80-dashboard.css": 2
+    },
+    ".task-settings-rail-icon": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-rail-label": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-rail-text": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-secondary-btn, .task-settings-option-btn": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-secondary-btn:active, .task-settings-option-btn:active": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-secondary-btn:hover, .task-settings-option-btn:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-section": {
+      "80-dashboard.css": 2
+    },
+    ".task-settings-section-copy": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-section-desc": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-section-header": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-section-icon": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-section-title": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-chip": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-chip-remove": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-chip-remove:hover": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-chip-text": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-chip[data-kind=\"assignee\"]": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-chips": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-empty": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-group": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-group:last-of-type": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-heading": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-input": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-input:focus": {
+      "80-dashboard.css": 1
+    },
+    ".task-settings-token-row": {
+      "80-dashboard.css": 2
+    },
+    ".task-status-blocked": {
+      "00-foundation.css": 1
+    },
+    ".task-status-cancelled": {
+      "00-foundation.css": 1
+    },
+    ".task-status-deferred": {
+      "00-foundation.css": 1
+    },
+    ".task-status-done": {
+      "00-foundation.css": 1
+    },
+    ".task-status-in-progress": {
+      "00-foundation.css": 1
+    },
+    ".task-status-todo": {
+      "00-foundation.css": 1
+    },
+    ".task-status-waiting": {
+      "00-foundation.css": 1
+    },
+    ".task-template-desc": {
+      "00-foundation.css": 1
+    },
+    ".task-template-name": {
+      "00-foundation.css": 1
+    },
+    ".task-template-row": {
+      "00-foundation.css": 1
+    },
+    ".theme-dark": {
+      "00-foundation.css": 1
+    },
+    ".theme-dark .task-manager-kanban-card.task-priority-high": {
+      "00-foundation.css": 1
+    },
+    ".theme-dark .task-manager-kanban-card.task-priority-highest": {
+      "00-foundation.css": 1
+    },
+    ".theme-dark .task-manager-kanban-card.task-priority-low": {
+      "00-foundation.css": 1
+    },
+    ".theme-dark .task-manager-kanban-card.task-priority-lowest": {
+      "00-foundation.css": 1
+    },
+    ".theme-dark .task-manager-kanban-card.task-priority-medium": {
+      "00-foundation.css": 1
+    },
+    ".theme-dark .task-manager-kanban-card.task-priority-normal": {
+      "00-foundation.css": 1
+    },
+    ".tm-ac-dropdown": {
+      "00-foundation.css": 1
+    },
+    ".tm-ac-item": {
+      "00-foundation.css": 1
+    },
+    ".tm-ac-item:hover, .tm-ac-item--active": {
+      "00-foundation.css": 1
+    },
+    ".tm-daily-todo": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo--done .tm-daily-todo-title, .tm-daily-todo--cancelled .tm-daily-todo-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-bulkbar": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-bulkbar button": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-bulkbar button, .tm-dashboard-delete-actions button": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-bulkbar-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-bulkbar.is-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check": {
+      "80-dashboard.css": 2
+    },
+    ".tm-daily-todo-check--blocked, .tm-daily-todo-check--waiting, .tm-daily-todo-check--on_hold": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--blocked::before, .tm-daily-todo-check--waiting::before, .tm-daily-todo-check--on_hold::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--cancelled": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--cancelled::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--deferred": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--deferred::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--done": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--done, .tm-daily-todo-check--blocked, .tm-daily-todo-check--waiting, .tm-daily-todo-check--on_hold, .tm-daily-todo-check--deferred, .tm-daily-todo-check--cancelled": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--done::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--in_progress": {
+      "80-dashboard.css": 2
+    },
+    ".tm-daily-todo-check--in_progress, .tm-daily-todo-check--done, .tm-daily-todo-check--blocked, .tm-daily-todo-check--waiting, .tm-daily-todo-check--on_hold, .tm-daily-todo-check--deferred, .tm-daily-todo-check--cancelled": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--in_progress::after": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--in_progress::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--todo": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check--todo:hover, .tm-daily-todo-check--todo:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-check::before, .tm-daily-todo-check::after": {
+      "80-dashboard.css": 2
+    },
+    ".tm-daily-todo-check:hover, .tm-daily-todo-check:focus-visible": {
+      "80-dashboard.css": 2
+    },
+    ".tm-daily-todo-date.is-closed": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-date.is-future": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-date.is-past": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-date.is-today": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-delete-status": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-list": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-meta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-meta-item + .tm-daily-todo-meta-item::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-recovery, .tm-dashboard-delete-status:not(:empty)": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-source": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-source:hover, .tm-daily-todo-source:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo.is-selected": {
+      "80-dashboard.css": 1
+    },
+    ".tm-daily-todo.is-updating": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash": {
+      "80-dashboard.css": 3
+    },
+    ".tm-dash .tm-dash-card--alert:has(.tm-dash-empty), .tm-dash .tm-dash-card--alert.is-alert-clear": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card--alert:has(.tm-dash-empty)::before, .tm-dash .tm-dash-card--alert.is-alert-clear::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card--alert:not(:has(.tm-dash-empty)):not(.is-alert-clear) .tm-dash-card-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card--warn:has(.tm-dash-empty), .tm-dash .tm-dash-card--warn.is-alert-clear": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card--warn:not(:has(.tm-dash-empty)):not(.is-alert-clear) .tm-dash-card-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card-badge": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card:hover, .tm-dash .tm-dash-action-button:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card.is-collapsed .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-card.is-collapsed .tm-dash-card-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-chip, .tm-dash .tm-dash-task-source": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-dashboard-switcher": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-dashboard-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-empty": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-empty-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-empty-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-empty-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-momentum-ach.is-unlocked": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-momentum-badge": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-momentum-badge-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-momentum-badge-num": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-momentum-xp-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-momentum-xp-track": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-more": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-more:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-nextaction-project": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-scope": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-scope-btn": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-scope-btn.is-active": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-good": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-good .tm-dash-stat-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-overdue": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-overdue .tm-dash-stat-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-reservoir .tm-dash-stat-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-reservoir .tm-dash-stat-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-review-blocked": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-review-schedule": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-review-stale": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-review-triage": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-soon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-soon .tm-dash-stat-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-zero": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-zero .tm-dash-stat-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-tile.is-zero .tm-dash-stat-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-stat-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-task": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-task-meta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-task-project": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-task-tag": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-task-tag.is-more": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-task-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash .tm-dash-task:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-button": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-button.is-icon-only": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-button.is-icon-only .tm-dash-action-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-grid": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-grid.is-icononly .tm-dash-action-button": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-grid.is-icononly .tm-dash-action-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-grid.is-icononly .tm-dash-action-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-action-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-actions": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-actions, .tm-dash-card-actions, .tm-dash-card-grip, .tm-dash-resize-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-autofit .tm-dash-resize-handle--n, .tm-dash-autofit .tm-dash-resize-handle--s": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill, .tm-dash-momentum-xp-fill, .tm-dash-review-progress-fill": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-bar-fill.is-cat-1": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-cat-2": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-cat-3": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-cat-4": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-cat-5": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-cat-6": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-cat-7": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-cat-8": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-priority-high": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-priority-highest": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-priority-low": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-priority-lowest": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-priority-medium": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-priority-normal": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-sequential-1": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-sequential-2": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-sequential-3": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-sequential-4": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-severity-high": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-severity-low": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-severity-medium": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-severity-neutral": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-status-blocked": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-status-cancelled": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-status-done": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-status-in-progress": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-status-on-hold": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-status-todo": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-fill.is-status-waiting": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-label span:last-child": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-row": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-row.is-overdue .tm-dash-bar-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-row.is-soon .tm-dash-bar-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-top": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-track": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bar-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-bars": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-calendar, .tm-dash-kanban, .tm-dash-habits": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-chip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-chip.is-warn": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-chips": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-form": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-input": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-preview": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-preview-arrow": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-preview-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-preview-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-status": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-status-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-status-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-status:empty": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-capture-submit": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card": {
+      "80-dashboard.css": 3
+    },
+    ".tm-dash-card--action .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--action .tm-dash-card-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--action.tm-dash-card--kpi": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--alert": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--alert .tm-dash-card-badge": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--alert .tm-dash-card-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--alert::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--alert.tm-dash-card--kpi, .tm-dash-card--alert.tm-dash-card--hero": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--hero": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-card--hero .tm-dash-card-body, .tm-dash-card.is-kpi-card .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--hero .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--hero .tm-dash-card-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--kpi": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--summary": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--summary .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--trend .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card--warn": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-actions": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-actions .tm-dash-icon-btn": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-card-actions .tm-dash-icon-btn svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-actions, .tm-dash-card-grip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-badge": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-badge.is-clickable": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-badge.is-clickable:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-badge.is-clickable:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-body::-webkit-scrollbar": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-body::-webkit-scrollbar-thumb": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-body:has(> .tm-dash-stats--hero.tm-dash-today)": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-body.is-underfilled": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-grip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-header:hover .tm-dash-card-actions, .tm-dash-card:focus-within .tm-dash-card-actions": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-icon svg, .tm-dash-card-grip svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-placeholder": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-render-host": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-select": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-trend": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-trend-delta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-trend-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-trend.is-down .tm-dash-card-trend-delta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card-trend.is-up .tm-dash-card-trend-delta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card:has(.tm-dash-today-section) .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card:hover .tm-dash-resize-handle, .tm-dash-card:focus-within .tm-dash-resize-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-chart-card .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-collapsed": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-collapsed .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-collapsed .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-dragging": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-list-card .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-resizing": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-resizing .tm-dash-resize-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-scrollable .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-selected": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-card.is-spatial-card .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-cat-1": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-cat-2": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-cat-3": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-cat-4": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-cat-5": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-cat-6": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-cat-7": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-cat-8": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-priority-high": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-priority-highest": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-priority-low": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-priority-lowest": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-priority-medium": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-priority-normal": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-sequential-1": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-sequential-2": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-sequential-3": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-sequential-4": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-severity-high": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-severity-low": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-severity-medium": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-severity-neutral": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-status-blocked": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-status-cancelled": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-status-done": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-status-in-progress": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-status-on-hold": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-status-todo": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cat-dot.is-status-waiting": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd-col": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd-done": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd-legend": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd-legend-item": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd-legend-item::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd-legend-item.is-done::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd-legend-item.is-open::before": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd-open": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cfd-stack": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-chip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-chip--date.is-overdue": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-chip--date.is-soon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-chip--date.is-start": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-comment": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-comment-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-comment-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-comment-latest": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-comment-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-comments": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-config-modal .tm-dash-config-buttons, .tm-dash-collection-modal .tm-dash-config-buttons, .tm-dash-export-modal .tm-dash-config-buttons, .tm-dash-import-modal .tm-dash-config-buttons": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-config-query .setting-item-control": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-config-query-input": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cycle-aging-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cycle-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cycle-stat": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cycle-summary": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-cycle-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-open": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-todos-date": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-todos-embed .tm-dash-embedded-grid": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-todos-host-wrap .edit-block-button, .tm-dash-daily-todos-host-wrap .markdown-embed-link, .markdown-source-view.mod-cm6 .cm-preview-code-block:has(.tm-dash-daily-todos-host) .edit-block-button": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-todos-host-wrap, .markdown-source-view.mod-cm6 .cm-preview-code-block:has(.tm-dash-daily-todos-host), .markdown-source-view.mod-cm6 .cm-embed-block:has(.tm-dash-daily-todos-host), .markdown-rendered pre:has(.tm-dash-daily-todos-host)": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-todos-host, .markdown-rendered .tm-dash-daily-todos-host, .markdown-source-view.mod-cm6 .tm-dash-daily-todos-host": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-todos-list": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-todos-section": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-todos-section-count": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-daily-todos-section-head": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-daily-todos-section-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-daily-todos-summary": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-dashboard-menu": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-dashboard-select": {
+      "80-dashboard.css": 3
+    },
+    ".tm-dash-dashboard-switcher": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-dashboard-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-date": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-date": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-day": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-day, .tm-dash-heatmap-cell": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-day:focus-visible, .tm-dash-heatmap-cell:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-l1": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-l2": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-l3": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-strip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-deadline-weekday": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-density-comfortable": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-density-compact": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-density-spacious": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-dot": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-dot.is-error": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-dot.is-ok": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-dot.is-warn": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-drag-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-drag-handle svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-drag-handle:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-edit-controls": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-edit-controls button": {
+      "80-dashboard.css": 3
+    },
+    ".tm-dash-edit-status": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-embedded": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-embedded-card .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-embedded-error": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-embedded-grid": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-embedded-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-embedded-subtitle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-embedded-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-embedded-title-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-embedded-title-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-embedded.tm-dash-widget-embed": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-empty": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-empty-board": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-empty-board .tm-dash-empty-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-empty-board h3": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-empty-board p": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-empty-hint": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-empty-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-empty-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-empty-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-export-json, .tm-dash-import-json": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-export-modal .setting-item-control, .tm-dash-import-modal .setting-item-control": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-goal-headline": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-goal-side": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-goal-step": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-goal-step-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-goal-stepper": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-greeting": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-grid": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-grid.is-condensed .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-grid.is-condensed .tm-dash-resize-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-grid.is-stacked": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-grid.is-stacked > .tm-dash-card": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-grid.is-stacked > .tm-dash-card .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-grid.is-stacked > .tm-dash-card.is-scrollable .tm-dash-card-body": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-group-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-group-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-group-label.is-note": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-group-label.is-overdue": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-group-label.is-overdue .tm-dash-group-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-group-note": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-group-note:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-groups": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-header": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-heatmap": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-heatmap-cell": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-heatmap-cell.tm-dash-heatmap-l1": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-heatmap-cell.tm-dash-heatmap-l1, .tm-dash-heatmap-cell.tm-dash-heatmap-l2, .tm-dash-heatmap-cell.tm-dash-heatmap-l3, .tm-dash-heatmap-cell.tm-dash-heatmap-l4": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-heatmap-cell.tm-dash-heatmap-l2": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-heatmap-cell.tm-dash-heatmap-l3": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-heatmap-cell.tm-dash-heatmap-l4": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-hero": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-hero-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-hero-trend": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-hero-trend-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-hero-trend-delta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-hero-trend.is-down": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-hero-trend.is-up": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-hero-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-icon-btn": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-icon-btn svg": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-info-modal .tm-dash-info-desc": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-head": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-heading": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-heading h2": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-kbd": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-keys": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-shortcut": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-shortcut-desc": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-shortcuts": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-subhead": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-info-modal .tm-dash-info-subtitle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-insight": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-insight--good": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-insight--good .tm-dash-insight-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-insight--risk": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-insight--risk .tm-dash-insight-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-insight--watch": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-insight--watch .tm-dash-insight-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-insight-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-insight-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-kanban": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-live-region": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-loading": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-manual-bar": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-manual-reset": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-manual-reset:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-manual-tag": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-manual-tag-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-manual-tag-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-matrix": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-matrix-cell": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-matrix-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-matrix-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-matrix-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum .tm-dash-stat-tiles": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-ach": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-ach-chips": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-ach-empty": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-ach-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-ach.is-locked": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-ach.is-unlocked": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-achievements": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-badge": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-badge-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-badge-num": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-level": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-level-meta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-xp": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-xp-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-xp-next": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-momentum-xp-track": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-more": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-more:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-more:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-chip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-chip, .tm-dash-next-up-source": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-chip.is-overdue": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-chip.is-soon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-copy": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-eyebrow": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-eyebrow-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-eyebrow-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-hero": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-list-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-main": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-meta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-source": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-start": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-title:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-next-up-title:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-nextaction": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-nextaction-list": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-nextaction-project": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-note": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-note-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-note-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-note-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-note.is-overdue": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-note.is-overdue .tm-dash-note-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-note.is-soon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-note.is-soon .tm-dash-note-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-notes": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-pomodoro": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-pomodoro-btns": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-pomodoro-btns button": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-pomodoro-select": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-pomodoro-status": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-pomodoro-time": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-calendar": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-calendar span": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-calendar span.has-work": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-habit": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-habit-cells": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-habit-cells span": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-habit-cells span.is-done": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-habits": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-kanban": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-kanban-card": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-kanban-col": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-kanban-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-line": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-pomodoro": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-risk--high, .tm-dash-preview-suggestion--high": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-risk--medium, .tm-dash-preview-suggestion--medium": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-risk-detail, .tm-dash-preview-suggestion-detail": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-risk-list, .tm-dash-preview-suggestions": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-risk-main, .tm-dash-preview-suggestion-main": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-risk-score": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-risk-title, .tm-dash-preview-suggestion-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-risk, .tm-dash-preview-suggestion": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-schedule .tm-dash-schedule-row": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-services .tm-dash-service-state": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-suggestion--high .tm-dash-preview-suggestion-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-suggestion--medium .tm-dash-preview-suggestion-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-suggestion-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-preview-suggestion-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-caret svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-group": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-group-head": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-group-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-group-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-icon, .tm-dash-rel-caret": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-item": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-item-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-item-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-item.is-done .tm-dash-rel-item-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-item.is-done .tm-dash-rel-link": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-link": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-link:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel-panel": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel.is-open .tm-dash-rel-caret svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel.is-unblocks": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-rel.is-waiting": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-handle": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-resize-handle svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-handle--e": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-handle--e, .tm-dash-resize-handle--w": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-resize-handle--n": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-handle--n, .tm-dash-resize-handle--s": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-resize-handle--ne": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-handle--ne, .tm-dash-resize-handle--nw, .tm-dash-resize-handle--se, .tm-dash-resize-handle--sw": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-resize-handle--nw": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-handle--s": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-handle--se": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-handle--sw": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-handle--w": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-overlay": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-resize-overlay.is-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-item": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-item .tm-dash-review-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-item .tm-dash-review-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-item.is-done .tm-dash-review-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-item.is-done .tm-dash-review-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-item.is-info": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-item.is-todo": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-item.is-todo .tm-dash-review-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-list": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-progress": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-progress-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-progress-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-review-progress-track": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-ring": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-ring-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-ring::after": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-ring.is-bad": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-ring.is-good": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-ring.is-warn": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-savedview-chip, .tm-dash-tag-chip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-savedview-chip:hover, .tm-dash-tag-chip:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-savedview-chip.is-active, .tm-dash-tag-chip.is-active": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-savedviews-chips, .tm-dash-tagcloud": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-savedviews-results, .tm-dash-tagcloud-results": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-allday": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-allday-chip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-allday-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-allday-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-end": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-row": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-row--event": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-row--task": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-row--task .tm-dash-schedule-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-row--task .tm-dash-schedule-label:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-row.is-conflict": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-start": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-schedule-time": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-scope": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-scope-btn": {
+      "80-dashboard.css": 3
+    },
+    ".tm-dash-scope-btn:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-scope-btn.is-active": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-scope-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-scope-wrap": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-section": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-section + .tm-dash-section": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-section-empty": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-section-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-service": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-service-name": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-service-state": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-services": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-skeleton": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-skeleton:nth-child(2)": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-skeleton:nth-child(3)": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-sparkbar": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-sparkbar-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-sparkbars": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-sparkbars-axis": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-sparkbars.is-good .tm-dash-sparkbar-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-sparkbars.is-risk .tm-dash-sparkbar-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-sparkbars.is-watch .tm-dash-sparkbar-fill": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stat-delta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stat-delta.is-down": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stat-delta.is-up": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stat-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stat-tile.is-overdue .tm-dash-stat-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stat-tile.is-soon .tm-dash-stat-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stat-tiles": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stat-tiles--wide": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stat-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-stats--hero .tm-dash-hero": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero .tm-dash-hero-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero .tm-dash-hero-trend": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero .tm-dash-ring": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-stats--hero .tm-dash-ring-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero .tm-dash-ring::after": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero .tm-dash-ring.is-empty": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero .tm-dash-ring.is-empty .tm-dash-ring-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero .tm-dash-stat-tile": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero .tm-dash-stat-tiles": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-stats--hero.tm-dash-today": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero.tm-dash-today .tm-dash-hero": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero.tm-dash-today .tm-dash-hero-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero.tm-dash-today .tm-dash-hero-trend-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero.tm-dash-today .tm-dash-hero-trend-delta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero.tm-dash-today .tm-dash-ring": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero.tm-dash-today .tm-dash-ring-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero.tm-dash-today .tm-dash-ring::after": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-stats--hero.tm-dash-today .tm-dash-ring.is-empty .tm-dash-ring-value": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-tag-chip-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-task--p-high": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task--p-highest": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task--p-medium": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task--s-done .tm-dash-task-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-check": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-task-check-hit": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-task-check:checked::after": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-flag": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-flag svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-flag.is-p-high": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-flag.is-p-highest": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-flag.is-p-low": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-flag.is-p-lowest": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-flag.is-p-medium": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-list": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-list > .tm-dash-group-label:first-child": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-list.is-overdue-heavy .tm-dash-chip--date.is-overdue": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-main": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-meta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-project": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-project > span:last-child": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-project-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-project-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-source": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-source:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-status": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-tag": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-tag.is-more": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task-text:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-task:hover .tm-dash-drag-handle, .tm-dash-task:focus-within .tm-dash-drag-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-desc": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-dot": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-heading": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-info": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-list": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-template-meta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-name": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-option": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-template-option--analytics": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-option--custom": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-option--daily": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-option--focus": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-option--planning": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-option--project": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-option--review": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-option--team": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-option:hover, .tm-dash-template-option:focus-within": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-picker": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-picker .tm-dash-widget-picker-subtitle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-picker-modal": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-question": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-template-use": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-command-center": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-command-center .tm-dash-card": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-command-center .tm-dash-card-badge": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-command-center .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-command-center .tm-dash-greeting": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-minimal": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-minimal .tm-dash-card": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-minimal .tm-dash-card-badge": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-minimal .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-minimal .tm-dash-card-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-minimal .tm-dash-card-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-minimal .tm-dash-card:hover, .tm-dash-theme-minimal .tm-dash-card:focus-within": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-theme-native": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-throughput-avg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-throughput-summary": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-throughput-trend": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-throughput-trend.is-down": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-throughput-trend.is-up": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat-axis": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat-axis-cells": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat-axis-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat-axis-spacer": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat-cells": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat-cells .tm-dash-heatmap-cell": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat-daylabel": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat-peak": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-timeheat-row": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today .tm-dash-stat-row": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today .tm-dash-stat-row > .tm-dash-stat-tile": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today > .tm-dash-stat-tiles": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section .tm-dash-more": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section .tm-dash-task": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section .tm-dash-task-list": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section-head": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section-toggle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section-toggle:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-backlog .tm-dash-task, .tm-dash-today-section.is-recently-done .tm-dash-task": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-backlog .tm-dash-today-section-count, .tm-dash-today-section.is-recently-done .tm-dash-today-section-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-blocked": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-blocked .tm-dash-today-section-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-blocked .tm-dash-today-section-title, .tm-dash-today-section.is-blocked .tm-dash-today-section-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-collapsed .tm-dash-today-section-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-overdue .tm-dash-today-section-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-overdue .tm-dash-today-section-title, .tm-dash-today-section.is-overdue .tm-dash-today-section-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-overdue, .tm-dash-today-section.is-blocked": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-recently-done .tm-dash-task": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-today-section.is-today, .tm-dash-today-section.is-tomorrow, .tm-dash-today-section.is-backlog, .tm-dash-today-section.is-recently-done": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-tone-analytics": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-tone-custom": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-tone-daily": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-tone-focus": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-tone-planning": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-tone-project": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-tone-review": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-tone-team": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-warning": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-card--daily-todos": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-card--daily-todos .tm-dash-card-badge": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-card--daily-todos .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-card--daily-todos .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-card--daily-todos .tm-dash-card-icon, .tm-dash-widget-embed .tm-dash-card--daily-todos .tm-dash-card-actions": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-card--daily-todos .tm-dash-card-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-card--daily-todos::before, .tm-dash-widget-embed .tm-dash-card--daily-todos::after": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-card--daily-todos:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-daily-todos .tm-dash-task": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-daily-todos .tm-dash-task-meta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-embed .tm-dash-daily-todos .tm-dash-task:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-group": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-group-desc": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-group-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-list": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-widget-option": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option--advanced": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option--collaborate": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option--decide": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option--integrations": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option--monitor": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option--plan": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option--recommended": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option--review": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option-desc": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option-size": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-option:hover, .tm-dash-widget-option:focus-visible": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker .tm-dash-widget-picker-input": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker-body": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-widget-picker-empty": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker-modal": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker-modal, .tm-dash-template-picker-modal": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker-preview": {
+      "80-dashboard.css": 2
+    },
+    ".tm-dash-widget-picker-results": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker-search": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker-search-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker-search-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-picker-subtitle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-preview-card": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-preview-card .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-preview-card .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-preview-desc": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-preview-eyebrow": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-preview-eyebrow-hint": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-preview-eyebrow-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash-widget-preview-eyebrow-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash, .tm-dash-template-picker-modal, .tm-dash-widget-picker-modal": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash:not(.is-editing) .tm-dash-card-grip, .tm-dash:not(.is-editing) .tm-dash-resize-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash:not(.tm-dash-theme-minimal) .tm-dash-card": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash:not(.tm-dash-theme-minimal) .tm-dash-card--hero": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash:not(.tm-dash-theme-minimal) .tm-dash-card--hero::after": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash:not(.tm-dash-theme-minimal) .tm-dash-card::after": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash:not(.tm-dash-theme-minimal) .tm-dash-card:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.is-editing .tm-dash-card-actions": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.is-editing .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.is-editing .tm-dash-card-grip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.is-editing .tm-dash-card-grip, .tm-dash.is-editing .tm-dash-resize-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.is-editing .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.is-editing .tm-dash-card-header:active": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.is-editing .tm-dash-card-header:hover .tm-dash-card-grip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.is-editing .tm-dash-card-select": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.is-editing .tm-dash-edit-controls": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.tm-dash-daily-todos-embed, .tm-dash.tm-dash-daily-todos-embed .tm-dash-embedded-grid": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.tm-dash-widget-embed .tm-dash-card.tm-dash-card--daily-todos .tm-dash-card-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.tm-dash-widget-embed .tm-dash-card.tm-dash-card--daily-todos .tm-dash-card-header": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.tm-dash-widget-embed:not(.tm-dash-theme-minimal) .tm-dash-card.tm-dash-card--daily-todos, .tm-dash.tm-dash-widget-embed .tm-dash-card.tm-dash-card--daily-todos": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.tm-dash-widget-embed:not(.tm-dash-theme-minimal) .tm-dash-card.tm-dash-card--daily-todos::after": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dash.tm-dash-widget-embed:not(.tm-dash-theme-minimal) .tm-dash-card.tm-dash-card--daily-todos:hover, .tm-dash.tm-dash-widget-embed .tm-dash-card.tm-dash-card--daily-todos:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dashboard-delete-actions": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dashboard-delete-status": {
+      "80-dashboard.css": 1
+    },
+    ".tm-dashboard-delete-summary": {
+      "80-dashboard.css": 1
+    },
+    ".tm-diag-buttons": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diag-error": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diag-grid": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diag-label": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diag-ok": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diag-row": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diag-section": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diag-section h3": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diag-value": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diag-warn": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-diagnostics-modal": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-drag-over": {
+      "80-dashboard.css": 1
+    },
+    ".tm-drag-source": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-actions": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-body": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-btn": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-btn-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-btn-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-btn:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-btn.is-cta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-btn.is-cta:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-chip": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-chip.is-muted": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-chip.is-overdue": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-chip.is-soon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-desc": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-drag-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-drag-handle svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-drag-handle:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-empty": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-empty-icon": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-empty-icon svg": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-empty-text": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-foot": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-foot-left": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-foot-right": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-list": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-loading": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-loading-icon": {
+      "80-dashboard.css": 2
+    },
+    ".tm-planner-meta": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-modal": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-modal .modal-content": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-phase-head": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-phase-sub": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-phase-title": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-row": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-row--p0": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-row--p1": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-row--p2": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-row-main": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-row:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-row:hover .tm-planner-drag-handle": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-row.tm-drag-over": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-row.tm-drag-source": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-step": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-step-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-step-index": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-step-label": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-step:hover": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-step.is-active": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-step.is-active .tm-planner-step-count": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-step.is-active .tm-planner-step-index": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-step.is-done .tm-planner-step-index": {
+      "80-dashboard.css": 1
+    },
+    ".tm-planner-steps": {
+      "80-dashboard.css": 1
+    },
+    ".tm-voice-buttons": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-interim": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-label": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-mic-btn": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-mic-btn:hover": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-mic-btn.is-recording": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-preview": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-preview-code": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-recording-modal, .tm-voice-preview-modal": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-section": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-status": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-status::before": {
+      "40-diagnostics-planning.css": 1
+    },
+    ".tm-voice-textarea": {
+      "40-diagnostics-planning.css": 1
+    },
+    "0%": {
+      "00-foundation.css": 1
+    },
+    "0%, 100%": {
+      "40-diagnostics-planning.css": 1
+    },
+    "100%": {
+      "00-foundation.css": 1
+    },
+    "50%": {
+      "40-diagnostics-planning.css": 1
+    },
+    "body.task-manager-kanban-drag-active .task-line-toolbar": {
+      "80-dashboard.css": 1
+    },
+    "from": {
+      "80-dashboard.css": 1
+    },
+    "to": {
+      "80-dashboard.css": 2
+    }
+  }
+}

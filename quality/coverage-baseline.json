@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "global": {
+    "lines": 73,
+    "branches": 78,
+    "functions": 73
+  },
+  "moduleFloors": {
+    "caldav-sync.js": { "lines": 90, "branches": 82, "functions": 92 },
+    "completion-detector.js": { "lines": 98, "branches": 95, "functions": 98 },
+    "dashboard-layout.js": { "lines": 98, "branches": 88, "functions": 97 },
+    "dashboard.js": { "lines": 58, "branches": 73, "functions": 64 },
+    "gantt-renderer.js": { "lines": 35, "branches": 79, "functions": 40 },
+    "google-tasks-sync.js": { "lines": 85, "branches": 70, "functions": 86 },
+    "main.js": { "lines": 48, "branches": 65, "functions": 54 },
+    "microsoft-todo-sync.js": { "lines": 80, "branches": 77, "functions": 86 },
+    "query-renderer.js": { "lines": 43, "branches": 65, "functions": 40 },
+    "scan-coordinator.js": { "lines": 98, "branches": 84, "functions": 98 },
+    "query-builder.js": { "lines": 80, "branches": 75, "functions": 80 },
+    "provider-connection-checks.js": { "lines": 80, "branches": 65, "functions": 80 },
+    "provider-sync-safety.js": { "lines": 90, "branches": 75, "functions": 90 },
+    "provider-token-refresh.js": { "lines": 80, "branches": 70, "functions": 80 },
+    "settings.js": { "lines": 80, "branches": 78, "functions": 80 },
+    "sidebar-view.js": { "lines": 65, "branches": 52, "functions": 45 },
+    "state-store.js": { "lines": 93, "branches": 84, "functions": 89 },
+    "sync-reconciliation.js": { "lines": 98, "branches": 83, "functions": 94 },
+    "task-index.js": { "lines": 97, "branches": 93, "functions": 86 },
+    "task-lifecycle.js": { "lines": 82, "branches": 86, "functions": 73 },
+    "task-line-toolbar.js": { "lines": 29, "branches": 85, "functions": 16 },
+    "task-move-service.js": { "lines": 92, "branches": 74, "functions": 98 },
+    "task-mutation-service.js": { "lines": 70, "branches": 74, "functions": 80 },
+    "task-query-service.js": { "lines": 98, "branches": 90, "functions": 98 },
+    "todoist-sync.js": { "lines": 85, "branches": 77, "functions": 90 },
+    "task-edit-modal.js": { "lines": 90, "branches": 80, "functions": 80 },
+    "weekly-review-modal.js": { "lines": 85, "branches": 76, "functions": 85 }
+  },
+  "changedLines": {
+    "minimumPercent": 80,
+    "minimumCoveredLines": 1,
+    "perFileMinimumPercent": 80,
+    "perFileMinimumCoveredExecutableLines": 1,
+    "baseRefEnvironment": "COVERAGE_BASE_REF"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "task-manager",
+  "name": "Task Manager",
+  "version": "0.1.0",
+  "minAppVersion": "1.11.4",
+  "description": "Markdown-native tasks, queries, planning views, and opt-in integrations.",
+  "author": "Mark Feinstein",
+  "authorUrl": "https://github.com/markfeinstein",
+  "isDesktopOnly": false
+}

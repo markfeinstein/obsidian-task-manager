@@ -1,0 +1,10 @@
+{
+  "mainJsBytes": 1647982,
+  "stylesCssBytes": 238716,
+  "totalInitialBytes": 1886698,
+  "reductionTarget": {
+    "mainJsBytes": 1530000,
+    "stylesCssBytes": 275000
+  },
+  "rationale": "Exact reviewed integrated output: 1,647,982 bytes JS plus 238,716 bytes CSS. Preserving accessible table editing, stable calendar identity/keyboard guidance, settings disclosure/focus semantics, and explicit CalDAV endpoint trust adds 1,589 JS bytes and 103 CSS bytes over the reviewed remediation output (1,692 bytes total, 0.09%). This is a bounded accessibility/safety tradeoff, not an asset-performance improvement. The remediation also includes per-object CalDAV discovery, managed-field preservation and conditional verification, standards-aware recurrence conversion, compiled query scopes, provider/AI safeguards, and localization. The four-file plugin contract and 1,530,000-byte JS reduction target remain unchanged; future growth still requires offsetting reduction work. No runtime dependency is added; metafile review confirms ical.js remains development-only."
+}

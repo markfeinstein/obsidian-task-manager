@@ -1,0 +1,85 @@
+{
+  "layers": [
+    {
+      "name": "composition",
+      "files": ["main.ts"]
+    },
+    {
+      "name": "ui",
+      "files": [
+        "advanced-find-modal.ts", "appearance.ts", "calendar-renderer.ts",
+        "commands/command-helpers.ts", "commands/command-host.ts", "commands/documented-command.ts",
+        "commands/register-advanced-commands.ts", "commands/register-core-task-commands.ts",
+        "commands/register-export-commands.ts", "commands/register-sync-commands.ts",
+        "commands/register-workspace-commands.ts", "cross-view-drag.ts", "dashboard-model.ts", "dashboard-persistence.ts", "dashboard-registry.ts", "dashboard-widget-modals.ts",
+        "dashboard.ts", "eisenhower-renderer.ts", "floating-position.ts", "gantt-renderer.ts",
+        "kanban-renderer.ts", "keyboard-nav.ts", "locale-scope.ts", "migration-wizard.ts",
+        "modals/ai-query-modal.ts", "modals/autosuggest.ts", "modals/daily-planner-modal.ts",
+        "modals/dependency-modals.ts", "modals/diagnostics-modal.ts",
+        "modals/google-calendar-setup-wizard.ts", "modals/google-tasks-oauth-modal.ts",
+        "modals/microsoft-todo-oauth-modal.ts", "modals/modal-utils.ts", "modals/onboarding-modal.ts",
+        "modals/pomodoro-modal.ts", "modals/quick-capture-modal.ts", "modals/simple-modals.ts",
+        "modals/task-edit-helpers.ts", "modals/task-edit-modal.ts", "modals/visible-fields-modal.ts",
+        "modals/voice-capture-modal.ts", "modals/weekly-review-modal.ts", "nl-task-input.ts",
+        "planning-board.ts", "progress-bar-decorator.ts", "query-builder.ts", "query-polish.ts", "query-renderer.ts",
+        "recurrence-heatmap.ts", "settings.ts", "settings/advanced-section.ts",
+        "settings/apple-reminders-section.ts", "settings/caldav-section.ts", "settings/confirm-removal.ts",
+        "settings-search.ts", "settings/google-tasks-section.ts", "settings/integration-section.ts",
+        "settings/microsoft-todo-section.ts", "settings/scan-interval-setting.ts", "settings/sections.ts", "settings/todoist-section.ts", "settings/voice-ai-section.ts",
+        "settings/workflow-section.ts", "sidebar-view.ts", "sync-conflict-review.ts", "table-editor-popover.ts", "table-renderer.ts",
+        "task-attribute-picker.ts", "task-line-toolbar.ts", "timeline-renderer.ts", "visual-views.ts",
+        "voice-capture.ts"
+      ]
+    },
+    {
+      "name": "application",
+      "files": [
+        "apple-reminders-sync.ts", "bases-integration.ts", "caldav-sync.ts", "canvas-exporter.ts",
+        "cli-handler.ts", "completion-coordinator.ts", "completion-detector.ts",
+        "daily-note.ts", "dashboard-daily-delete.ts", "dashboard-render-scheduler.ts", "exporters.ts", "google-calendar-sync.ts",
+        "google-tasks-sync.ts", "habit-tracker.ts", "log-writer.ts", "manual-order.ts",
+        "microsoft-todo-sync.ts", "mobile-notifier.ts", "mobile-uri-capture.ts", "mutation-log.ts",
+        "oauth-pkce.ts", "project-workspace.ts", "provider-connection-checks.ts", "provider-sync-safety.ts", "provider-token-refresh.ts", "recurrence-series.ts", "reminder-index.ts", "reminder-manager.ts",
+        "reminder-task-resolution.ts", "scan-coordinator.ts", "scan-lifecycle-reconciler.ts",
+        "state-slice-repositories.ts", "state-store.ts", "sync-identity-mapper.ts",
+        "sync-operations.ts", "sync-reconciliation.ts", "sync-task-line.ts", "task-history.ts",
+        "task-identity-state.ts", "task-index.ts", "task-lifecycle-transfer-service.ts",
+        "task-lifecycle.ts", "task-move-service.ts", "task-mutation-resolver.ts",
+        "task-mutation-service.ts", "task-query-service.ts", "task-scanner-ext.ts", "task-scanner.ts",
+        "todoist-sync.ts", "vault-event-coordinator.ts"
+      ]
+    },
+    {
+      "name": "domain",
+      "files": [
+        "apple-reminders-shortcut.ts", "color-utils.ts", "command-metadata.ts", "csv-utils.ts",
+        "custom-fields-sync.ts", "dashboard-aggregates.ts", "dashboard-layout.ts", "date-utils.ts", "display-date.ts",
+        "duration-utils.ts", "ics-vtodo-reconciliation.ts", "ics-recurrence.ts", "latest-work-queue.ts", "gamification.ts", "i18n.ts", "input-budgets.ts", "iso-date.ts",
+        "kanban-board.ts", "metrics-aggregator.ts", "natural-date-parser.ts", "nlp-parser.ts",
+        "nlp-query.ts", "query-expression.ts", "query-result-paging.ts",
+        "settings-contract.ts", "settings-navigation.ts", "settings-normalizer.ts", "sync-contract.ts", "task-identity.ts",
+        "task-model.ts", "task-query-output.ts", "task-query.ts", "types.ts", "untrusted-task-text.ts"
+      ]
+    },
+    {
+      "name": "platform",
+      "files": [
+        "ai-endpoint-safety.ts", "dav-calendar-listing.ts", "build-info.ts", "calendar-url-safety.ts", "network-request.ts",
+        "task-path-policy.ts", "url-safety.ts", "vault-utils.ts"
+      ]
+    }
+  ],
+  "forbidden": [
+    { "from": "platform", "to": "domain" },
+    { "from": "platform", "to": "application" },
+    { "from": "platform", "to": "ui" },
+    { "from": "platform", "to": "composition" },
+    { "from": "domain", "to": "application" },
+    { "from": "domain", "to": "ui" },
+    { "from": "domain", "to": "composition" },
+    { "from": "application", "to": "ui" },
+    { "from": "application", "to": "composition" },
+    { "from": "ui", "to": "composition" }
+  ],
+  "allowedRuntimeCycles": []
+}

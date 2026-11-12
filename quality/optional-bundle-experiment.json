@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "experiment": "manual-secondary-commonjs",
+  "candidate": "src/modals/diagnostics-modal.ts",
+  "productionChanged": false,
+  "measurements": {
+    "currentMainBundleBytes": 1508773,
+    "standaloneSecondaryBundleBytes": 45478,
+    "secondaryInputCount": 11,
+    "inputsAlreadyPresentInMainCount": 11,
+    "inputsAlreadyPresentInMainSourceBytes": 240050,
+    "candidateOnlyInputCount": 0,
+    "candidateOnlySourceBytes": 0
+  },
+  "releaseContract": {
+    "requiredFiles": [
+      "main.js",
+      "manifest.json",
+      "versions.json",
+      "styles.css"
+    ],
+    "stylesRemainEager": true
+  },
+  "evidence": {
+    "relativeLoadInRealObsidian": false,
+    "offlineInstallRetainsSecondaryAssets": false,
+    "updateAndUninstallLifecycleVerified": false,
+    "communityPluginsOrBratVerified": false,
+    "desktopVerified": false,
+    "androidVerified": false,
+    "iosVerified": false,
+    "startupParseAndHeapImprovementVerified": false
+  },
+  "decision": {
+    "outcome": "no-go",
+    "reason": "The isolated CommonJS candidate duplicates sources already present in main.js, styles.css remains eager, and required real-host distribution/runtime evidence has not been supplied.",
+    "productionAction": "Keep the supported four-file, single-CommonJS package and reduce it through source deletion and internal source-module boundaries."
+  }
+}
