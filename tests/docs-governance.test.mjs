@@ -1,8 +1,13 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import test from 'node:test';
 
 const read = (file) => readFileSync(file, 'utf8');
+const sourceFiles = (directory) => readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+  const file = `${directory}/${entry.name}`;
+  if (entry.isDirectory()) return sourceFiles(file);
+  return entry.isFile() && file.endsWith('.ts') ? [file] : [];
+});
 
 void test('legal and ownership metadata are consistent', () => {
   const packageJson = JSON.parse(read('package.json'));
@@ -10,7 +15,16 @@ void test('legal and ownership metadata are consistent', () => {
   assert.equal(packageJson.license, 'MIT');
   assert.equal(packageJson.author, 'Mark Feinstein');
   assert.equal(manifest.author, 'Mark Feinstein');
+  assert.equal(packageJson.repository, 'https://github.com/markfeinstein/obsidian-task-manager');
+  assert.equal(packageJson.homepage, 'https://github.com/markfeinstein/obsidian-task-manager');
+  assert.equal(packageJson.bugs, 'https://github.com/markfeinstein/obsidian-task-manager/issues');
   assert.match(read('LICENSE'), /^MIT License/mu);
+});
+
+void test('production sources avoid noisy console output and document-writing APIs', () => {
+  const source = sourceFiles('src').map(read).join('\n');
+  assert.doesNotMatch(source, /\bconsole\.(?:log|debug|info)\s*\(/u);
+  assert.doesNotMatch(source, /\bdocument\.write\s*\(/u);
 });
 
 void test('sample vault release fixtures match root and keep network/reminders off', () => {

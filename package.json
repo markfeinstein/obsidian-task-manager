@@ -5,6 +5,9 @@
   "author": "Mark Feinstein",
   "license": "MIT",
   "private": true,
+  "repository": "https://github.com/markfeinstein/obsidian-task-manager",
+  "homepage": "https://github.com/markfeinstein/obsidian-task-manager",
+  "bugs": "https://github.com/markfeinstein/obsidian-task-manager/issues",
   "engines": {
     "node": ">=22 <25",
     "npm": ">=10 <12"

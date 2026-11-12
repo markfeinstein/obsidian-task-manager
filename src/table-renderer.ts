@@ -1192,9 +1192,12 @@ function renderExportMenu(button: HTMLElement, tasks: ParsedTask[], columns: Tab
     item.setAttr('type', 'button');
     item.setAttr('role', 'menuitem');
     item.addEventListener('click', () => {
-      const content = format === 'markdown' ? exportMarkdown(tasks, columns) : format === 'csv' ? exportCsv(tasks, columns) : exportHtml(tasks, columns);
-      if (format === 'pdf') openPrintPdf(content);
-      else downloadText(`tasks-export.${format === 'markdown' ? 'md' : format}`, content, format === 'html' ? 'text/html' : 'text/plain');
+      if (format === 'pdf') {
+        openPrintPdf(tasks, columns);
+      } else {
+        const content = format === 'markdown' ? exportMarkdown(tasks, columns) : format === 'csv' ? exportCsv(tasks, columns) : exportHtml(tasks, columns);
+        downloadText(`tasks-export.${format === 'markdown' ? 'md' : format}`, content, format === 'html' ? 'text/html' : 'text/plain');
+      }
       close(true);
     });
   };
@@ -1214,18 +1217,21 @@ function renderExportMenu(button: HTMLElement, tasks: ParsedTask[], columns: Tab
   }, { capture: true, signal: controller.signal });
 }
 
-function openPrintPdf(html: string): void {
-  const win = window.open('', '_blank');
+function openPrintPdf(tasks: ParsedTask[], columns: TableColumn[]): void {
+  const html = exportHtml(tasks, columns, true);
+  const url = URL.createObjectURL(new Blob([html], { type: 'text/html' }));
+  const win = window.open(url);
   if (!win) {
+    URL.revokeObjectURL(url);
     downloadText('tasks-export.html', html, 'text/html');
     new Notice('Popup blocked. Saved printable HTML instead.');
     return;
   }
-  win.document.open();
-  win.document.write(html.replace('</style>', '@media print{@page{size:auto;margin:12mm}}</style>'));
-  win.document.close();
-  win.focus();
-  win.print();
+  win.onload = () => {
+    URL.revokeObjectURL(url);
+    win.focus();
+    win.print();
+  };
 }
 
 function customDisplayText(value: string, type: string | undefined): string {
@@ -1334,10 +1340,11 @@ function exportCsv(tasks: ParsedTask[], columns: TableColumn[]): string {
   return [exportColumns.map((column) => csvEscape(column.label)).join(','), ...tasks.map((task) => exportColumns.map((column) => csvEscape(column.render(task))).join(','))].join('\n');
 }
 
-function exportHtml(tasks: ParsedTask[], columns: TableColumn[]): string {
+function exportHtml(tasks: ParsedTask[], columns: TableColumn[], printable = false): string {
   const exportColumns = columns.filter((column) => column.key !== 'select');
   const esc = (value: string): string => value.replace(/&/gu, '&amp;').replace(/</gu, '&lt;').replace(/>/gu, '&gt;');
-  return `<!doctype html><html><head><meta charset="utf-8"><title>Tasks Export</title><style>body{font-family:system-ui,sans-serif}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:6px;text-align:left}</style></head><body><h1>Tasks Export</h1><table><thead><tr>${exportColumns.map((column) => `<th>${esc(column.label)}</th>`).join('')}</tr></thead><tbody>${tasks.map((task) => `<tr>${exportColumns.map((column) => `<td>${esc(column.render(task))}</td>`).join('')}</tr>`).join('')}</tbody></table></body></html>`;
+  const printStyles = printable ? '@page{margin:1cm}' : '';
+  return `<!doctype html><html><head><meta charset="utf-8"><title>Tasks Export</title><style>body{font-family:system-ui,sans-serif}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:6px;text-align:left}${printStyles}</style></head><body><h1>Tasks Export</h1><table><thead><tr>${exportColumns.map((column) => `<th>${esc(column.label)}</th>`).join('')}</tr></thead><tbody>${tasks.map((task) => `<tr>${exportColumns.map((column) => `<td>${esc(column.render(task))}</td>`).join('')}</tr>`).join('')}</tbody></table></body></html>`;
 }
 
 function downloadText(filename: string, content: string, type: string): void {

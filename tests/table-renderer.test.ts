@@ -129,6 +129,69 @@ test('table renderer keeps canvas status controls read-only and removes row muta
   assert.equal(toggled, 0);
 });
 
+test('table PDF export opens an escaped printable blob without document writes', async (context) => {
+  const harness = installDomHarness();
+  context.after(harness.cleanup);
+  const root = harness.document.createElement('section');
+  harness.document.body.appendChild(root);
+  const unsafeText = '<img src=x onerror=alert(1)> Review';
+  const createObjectUrl = Object.getOwnPropertyDescriptor(URL, 'createObjectURL');
+  const revokeObjectUrl = Object.getOwnPropertyDescriptor(URL, 'revokeObjectURL');
+  context.after(() => {
+    if (createObjectUrl) Object.defineProperty(URL, 'createObjectURL', createObjectUrl);
+    if (revokeObjectUrl) Object.defineProperty(URL, 'revokeObjectURL', revokeObjectUrl);
+  });
+  const captured: { blob?: Blob; load?: () => void } = {};
+  let openedUrl = '';
+  let revokedUrl = '';
+  let printCalls = 0;
+  Object.defineProperty(URL, 'createObjectURL', {
+    configurable: true,
+    value: (blob: Blob) => { captured.blob = blob; return 'blob:task-export'; },
+  });
+  Object.defineProperty(URL, 'revokeObjectURL', {
+    configurable: true,
+    value: (url: string) => { revokedUrl = url; },
+  });
+  const printWindow = {
+    get onload() { return null; },
+    set onload(listener: ((this: Window, event: Event) => unknown) | null) {
+      if (listener) captured.load = () => listener.call(printWindow as unknown as Window, new harness.window.Event('load'));
+    },
+    focus: () => undefined,
+    print: () => { printCalls += 1; },
+  } as unknown as Window;
+  Object.defineProperty(harness.window, 'open', {
+    configurable: true,
+    value: (url: string) => { openedUrl = url; return printWindow; },
+  });
+  const tableSettings = {
+    supportedStates: DEFAULT_TASK_STATES,
+    tableViewConfig: { savedFilters: [], customColumns: [], showHierarchy: false, visibleColumns: ['task'] },
+    recurringHeatmapEnabled: false,
+  } as unknown as TaskManagerSettings;
+
+  renderTable(root, [task({ key: 'print-task', normalizedText: unsafeText })], emptyQuery(), tableSettings, async () => undefined, () => undefined);
+  const exportButton = Array.from(root.querySelectorAll<HTMLButtonElement>('button')).find((button) => button.textContent === 'Export');
+  assert.ok(exportButton);
+  exportButton.click();
+  const pdfButton = Array.from(root.querySelectorAll<HTMLButtonElement>('button')).find((button) => button.textContent === 'PDF');
+  assert.ok(pdfButton);
+  pdfButton.click();
+
+  assert.equal(openedUrl, 'blob:task-export');
+  assert.equal(printCalls, 0, 'printing must wait for the blob document to load');
+  assert.ok(captured.load);
+  captured.load();
+  assert.equal(printCalls, 1);
+  assert.equal(revokedUrl, 'blob:task-export');
+  assert.ok(captured.blob);
+  const html = await captured.blob.text();
+  assert.match(html, /&lt;img src=x onerror=alert\(1\)&gt; Review/u);
+  assert.doesNotMatch(html, /<img/u, 'task text must remain escaped rather than parsed markup');
+  assert.match(html, /@page\{margin:1cm\}/u);
+});
+
 test('table grid exposes complete roving navigation and interaction semantics', (context) => {
   const harness = installDomHarness();
   context.after(harness.cleanup);

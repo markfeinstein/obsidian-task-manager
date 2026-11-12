@@ -802,7 +802,6 @@ export async function bidirectionalSyncMicrosoftTodo(
   onProgress?: (status: string) => void,
 ): Promise<{ created: number; updated: number; deleted: number; conflicts: number }> {
   onProgress?.('Starting bidirectional sync with Microsoft To Do...');
-  console.info(`[Sync Attempt] Microsoft To Do: Starting bidirectional sync (${vaultTasks.length} vault tasks, strategy: ${strategy})`);
 
   const todoTasks = await fetchMicrosoftTodoTasks(config);
   const explicitVaultTodoIds = new Set(vaultTasks.map(explicitMicrosoftTodoTaskId).filter((id): id is string => Boolean(id)));
@@ -860,7 +859,6 @@ export async function bidirectionalSyncMicrosoftTodo(
   onProgress?.(
     `Sync complete: ${stats.created} created, ${stats.updated} updated, ${stats.deleted} deleted, ${stats.conflicts} conflicts`,
   );
-  console.info(`[Sync Complete] Microsoft To Do: created=${stats.created}, updated=${stats.updated}, deleted=${stats.deleted}, conflicts=${stats.conflicts}`);
   return stats;
 }
 
