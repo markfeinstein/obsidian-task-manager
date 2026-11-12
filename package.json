@@ -53,10 +53,10 @@
     "mcp:companion": "node scripts/mcp-companion.mjs"
   },
   "devDependencies": {
-    "@codemirror/autocomplete": "6.20.3",
-    "@codemirror/language": "6.12.4",
+    "@codemirror/autocomplete": "6.20.4",
+    "@codemirror/language": "6.13.1",
     "@codemirror/state": "6.7.6",
-    "@codemirror/view": "6.43.13",
+    "@codemirror/view": "6.43.15",
     "@cyclonedx/cyclonedx-library": "10.1.0",
     "@types/jsdom": "21.1.7",
     "@types/node": "22.19.19",
